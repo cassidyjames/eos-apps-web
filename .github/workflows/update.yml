@@ -27,16 +27,13 @@ jobs:
         run: |
           sudo apt update && sudo apt install ruby-nokogiri
           gem install nokogiri -- --use-system-libraries
-          ruby ./generate-loki.rb
-          ruby ./generate-hera.rb
-          ruby ./generate-odin.rb
           ruby ./generate-flatpak.rb
 
       - name: Commit
         run: |
           FILES_CHANGED=$(git diff --name-only | wc -l)
           if [[ $FILES_CHANGED != 0 ]]; then
-            git config --local user.email "action@github.com"
+            git config --local user.email "actions@github.com"
             git config --local user.name "GitHub Action"
             git add -A
             git commit -m "Automatic update of data" -a

@@ -1,10 +1,10 @@
-# AppCenter Web
+# Endless OS Apps Website
 
-Web frontend for viewing AppCenter apps for elementary OS.
+Web frontend for viewing first-party apps for Endless OS.
 
 ## Building
 
-AppCenter Web is a simple Jekyll-powered site hosted by GitHub Pages. To run it locally, see [the GitHub docs](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/).
+This site is a simple Jekyll-powered site hosted by GitHub Pages. To run it locally, see [the GitHub docs](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/).
 
 ### Dependencies
 
@@ -50,9 +50,6 @@ bundle install
 The list of apps is generated with a simple Ruby script. To rebuild the app list, run:
 
 ```shell
-ruby generate-loki.rb
-ruby generate-hera.rb
-ruby generate-odin.rb
 ruby generate-flatpak.rb
 ```
 
