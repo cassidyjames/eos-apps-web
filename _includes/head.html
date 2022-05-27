@@ -9,14 +9,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
 
-  <link rel="shortcut icon" href="https://elementary.io/favicon.ico">
-  <link rel="apple-touch-icon" href="https://elementary.io/images/launcher-icons/apple-touch-icon.png">
-  <link rel="icon" type="image/png" href="https://elementary.io/images/favicon.png" sizes="256x256">
+  <link rel="apple-touch-icon" href="/images/icon-32.png">
+  <link rel="icon" type="image/png" href="/images/icon-32.png" sizes="192x192">
 
   <meta name="theme-color" content="{% if page.color.primary != "((color_primary))" %}{{page.color.primary}}{% else %}{{site.color.primary}}{% endif %}">
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:site" content="@elementary">
+  <meta name="twitter:site" content="@endlessm">
 
   <meta name="description" content="{% if page.summary %}{{page.summary}}{% else %}{{site.summary}}{% endif %}">
   <meta property="og:description" content="{% if page.summary %}{{page.summary}}{% else %}{{site.summary}}{% endif %}">
@@ -38,9 +37,10 @@
     <meta itemprop="image" content="{% if page.screenshots %}{{page.screenshots[0]}}{% else %}{{site.image}}{% endif %}" />
   {% endif %}
 
-  <link rel="stylesheet" type="text/css" media="all" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,300italic,400italic|Roboto+Mono&subset=latin,greek,vietnamese,greek-ext,latin-ext,cyrillic,cyrillic-ext">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" type="text/css" media="all" href="{{'/css/main.css' | prepend: site.baseurl | append: '?v=' | append: site.time}}">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.6.0/tiny-slider.css">
-
-  <script async defer data-domain="appcenter.elementary.io" src="https://stats.elementary.io/js/index.js"></script>
 </head>

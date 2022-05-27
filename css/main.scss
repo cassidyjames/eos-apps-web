@@ -16,14 +16,13 @@
   color-scheme: light dark;
   --bg: white;
   --fg: #333;
-  --accent: #7239b3;
+  --accent: {{ site.color.primary }};
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --bg: #1a1a1a;
     --fg: white;
-    --accent: #a56de2;
   }
 }
 

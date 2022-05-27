@@ -1,6 +1,6 @@
-# Endless OS Apps Website
+# Endless Apps Website
 
-Web frontend for viewing first-party apps for Endless OS.
+Web frontend for viewing first-party educational content apps for Endless OS.
 
 ## Building
 

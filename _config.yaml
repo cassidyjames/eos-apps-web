@@ -1,10 +1,10 @@
 ---
-title: elementary AppCenter
-summary: Get apps on AppCenter, the open, pay-what-you-want app store for indie developers.
-image: "https://elementary.io/images/screenshots/appcenter.jpg"
+title: Endless Apps
+summary: Learning and educational apps created specifically for Endless OS
+image: "/images/endless.png"
 separator: "&sdot;"
 color:
-  primary: "#485a6c"
+  primary: "#f15a22"
   primary-text: "#fff"
 
 collections:

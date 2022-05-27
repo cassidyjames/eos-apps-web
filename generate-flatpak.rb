@@ -10,7 +10,7 @@ require 'cgi'
 ###########
 
 # HTTPS doesn't work
-componentsDataGz = open('http://flatpak.elementary.io/repo/appstream/x86_64/appstream.xml.gz')
+componentsDataGz = open('http://ostree.endlessm.com/ostree/eos-apps/appstream/x86_64/appstream.xml.gz')
 xmlData = Zlib::GzipReader.new( componentsDataGz ).read
 componentsData = Nokogiri::XML(xmlData)
 
@@ -128,7 +128,7 @@ componentsData.css("components component").each do | component |
   appFile.sub!('((screenshots))', screenshots.rstrip)
 
   icons = ""
-  icon_prefix = "https://flatpak.elementary.io/repo/appstream/x86_64/icons/"
+  icon_prefix = "https://ostree.endlessm.com/ostree/eos-apps/appstream/x86_64/icons/"
 
   icon64 = component.at_css('icon[width="64"]')
   if not icon64.nil?
