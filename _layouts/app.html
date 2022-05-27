@@ -14,17 +14,10 @@ layout: default
           srcset="{{ icon[1] }}"
         {% endif %}
       {% endfor %}
-      src="https://cdn.rawgit.com/elementary/icons/c048cf1bdf9d7735638c1cfe1eea64831e46c83f/apps/64/application-default-icon.svg"
+      src="/images/dotted-box-symbolic.svg"
     alt="{{ page.title }} icon" />
 
     <h1>{{ page.title }}</h1>
-    <p>{{ page.developer }}</p>
-
-    {% if page.dist == "flatpak" %}
-      {% unless page.price %}
-        <a class="button suggested" href="https://flatpak.elementary.io/repo/appstream/{{ page.app_id }}.flatpakref" download="{{ page.title }}.flatpakref">Download as Flatpak</a>
-      {% endunless %}
-    {% endif %}
   </div>
 </header>
 
@@ -37,53 +30,11 @@ layout: default
 
     {{ content }}
 
-    <section class="get-it constrain">
-      <h2>Get it {% if page.price %}for <strong>${{ page.price }}</strong>{% endif %} on AppCenter</h2>
-      <p>Get {{ page.title }} and more on elementary AppCenter, the open, pay-what-you-can app store for indie developers. Every app is open source and has been reviewed and curated by elementary to ensure a native, privacy-respecting, and secure experience.</p>
-
-      {% include loki.html %}
-      {% include hera.html %}
-
-      <div class="call-to-action">
-        <a class="button" href="https://developer.elementary.io" target="_blank">Publish on AppCenter</a>
-        {% if page.dist == "flatpak" %}
-          {% unless page.price %}
-            <a class="button suggested" href="https://flatpak.elementary.io/repo/appstream/{{ page.app_id }}.flatpakref" download="{{ page.title }}.flatpakref">Download as Flatpak</a>
-          {% endunless %}
-        {% endif %}
-      </div>
-    </section>
-
-    {% if page.releases %}
-      <h2>What's New:</h2>
-      {% for release in page.releases %}
-        <details {% if forloop.index == 1 %}open="true"{% endif %}>
-          <summary><strong>{{ release.version }}</strong> – {{ release.unix-timestamp | date: "%h %-d, %Y" }}</summary>
-          {{ release.description }}
-        </details>
-      {% endfor %}
-    {% endif %}
   </section>
 </div>
 
 <footer>
   <div class="constrain">
     <a class="button go-home" href="/">← All Apps</a>
-    {% if page.homepage %}
-      <a class="button" href="{{ page.homepage }}" target="_blank">Homepage</a>
-    {% endif %}
-    {% if page.bugtracker %}
-      <a class="button" href="{{ page.bugtracker }}" target="_blank">Send Feedback</a>
-    {% endif %}
-    {% if page.help_page %}
-      <a class="button" href="{{ page.help_page }}" target="_blank">Help</a>
-    {% endif %}
   </div>
 </footer>
-
-<style>
-  header {
-    background-color: {% if page.color.primary != "((color_primary))" %}{{ page.color.primary }}{% else %}{{ site.color.primary }}{% endif %};
-    color: {% if page.color.primary-text != "((color_text))" %}{{ page.color.primary-text }}{% else %}{{ site.color.primary-text }}{% endif %}
-  }
-</style>

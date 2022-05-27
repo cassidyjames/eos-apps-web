@@ -2,6 +2,10 @@
 
 Web frontend for viewing first-party educational content apps for Endless OS.
 
+## Data
+
+Ideally we could download the data on demand when building, but for now I'm copying `/var/lib/flatpak/appstream/eos-apps/x86_64/active/appstream.xml` and `/var/lib/flatpak/appstream/eos-apps/x86_64/active/icons/` from an Endless OS install to the root of this repo.
+
 ## Building
 
 This site is a simple Jekyll-powered site hosted by GitHub Pages. To run it locally, see [the GitHub docs](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/).
@@ -50,7 +54,7 @@ bundle install
 The list of apps is generated with a simple Ruby script. To rebuild the app list, run:
 
 ```shell
-ruby generate-flatpak.rb
+ruby generate-eos-apps.rb
 ```
 
 This is automatically run hourly with a GitHub Action workflow.

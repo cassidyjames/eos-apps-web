@@ -27,7 +27,7 @@ jobs:
         run: |
           sudo apt update && sudo apt install ruby-nokogiri
           gem install nokogiri -- --use-system-libraries
-          ruby ./generate-flatpak.rb
+          ruby ./generate-eos-apps.rb
 
       - name: Commit
         run: |
