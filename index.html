@@ -19,14 +19,14 @@ color:
         <img width="64" height="64"
           {% for icon in app.icons %}
             {% if icon[0] == "64@2" %}
-              srcset="{{ icon[1] }} 2x"
+              srcset="{{ icon[1] | prepend: site.baseurl }} 2x"
             {% elsif icon[0] == "128" %}
-              srcset="{{ icon[1] }}"
+              srcset="{{ icon[1] | prepend: site.baseurl }}"
             {% elsif icon[0] == "64" %}
-              srcset="{{ icon[1] }}"
+              srcset="{{ icon[1] | prepend: site.baseurl }}"
             {% endif %}
           {% endfor %}
-          src="/images/dotted-box-symbolic.svg"
+          src="{{ site.baseurl }}/images/dotted-box-symbolic.svg"
         alt="{{ app.title }} icon" />
 
         <span class="title">{{ app.title }}</span>
