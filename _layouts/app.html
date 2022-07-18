@@ -7,11 +7,11 @@ layout: default
     <img class="icon" width="64" height="64"
       {% for icon in page.icons %}
         {% if icon[0] == "64@2" %}
-          srcset="{{ icon[1] }} 2x"
+          srcset="{{ icon[1] | prepend: site.baseurl }} 2x"
         {% elsif icon[0] == "128" %}
-          srcset="{{ icon[1] }}"
+          srcset="{{ icon[1] | prepend: site.baseurl }}"
         {% elsif icon[0] == "64" %}
-          srcset="{{ icon[1] }}"
+          srcset="{{ icon[1] | prepend: site.baseurl }}"
         {% endif %}
       {% endfor %}
       src="/images/dotted-box-symbolic.svg"
