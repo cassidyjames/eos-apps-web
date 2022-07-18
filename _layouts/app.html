@@ -14,7 +14,7 @@ layout: default
           srcset="{{ icon[1] | prepend: site.baseurl }}"
         {% endif %}
       {% endfor %}
-      src="/images/dotted-box-symbolic.svg"
+      src="{{ site.baseurl }}/images/dotted-box-symbolic.svg"
     alt="{{ page.title }} icon" />
 
     <h1>{{ page.title }}</h1>
@@ -35,6 +35,6 @@ layout: default
 
 <footer>
   <div class="constrain">
-    <a class="button go-home" href="/">← All Apps</a>
+    <a class="button go-home" href="{{ site.baseurl }}">← All Apps</a>
   </div>
 </footer>
