@@ -11,6 +11,8 @@ screenshots:
   - https://com-endless--cloud-soma-prod--shared-portal.s3.amazonaws.com/apps.241.screenshots.a4d9e5c2-07bc-47db-974c-a1c7ccb79347_201810161549043838.png
 icons:
   "64": /images/icons/64x64/com.endlessm.astronomy.vi.png
+languages:
+  - vi
 color:
   primary: "#485a6c"
   primary-text: "#fff"

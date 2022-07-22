@@ -11,6 +11,8 @@ screenshots:
   - https://com-endless--cloud-soma-prod--shared-portal.s3.amazonaws.com/apps.245.screenshots.57c2fd2a-e8a1-4f27-864b-b9707c134c4d_201810181851271717.png
 icons:
   "64": /images/icons/64x64/com.endlessm.biology.id.png
+languages:
+  - id
 color:
   primary: "#485a6c"
   primary-text: "#fff"

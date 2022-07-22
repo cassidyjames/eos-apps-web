@@ -11,6 +11,29 @@ screenshots:
 
 icons:
   "64": /images/icons/64x64/com.endlessm.iqro.id.png
+languages:
+  - com.endlessm.iqro.id.desktop
+  - IQRO
+  - Belajar Iqro
+  - Buku Panduan Belajar Iqro
+  - 64x64/com.endlessm.iqro.id.png
+  - 
+      Education
+    
+  - proprietary
+  - https://endlessos.com
+  - 
+  - 
+  - 
+      com.endlessm.iqro.id
+    
+  - 
+      id
+    
+  - 
+      https://com-endless--cloud-soma-prod--shared-portal.s3.amazonaws.com/app.905.appCenterThumbnail.cee829c7-ceac-4fd7-9fdf-d8d93ecaab0a_201810111500773737.png
+    
+  - app/com.endlessm.iqro.id/x86_64/eos3
 color:
   primary: "#485a6c"
   primary-text: "#fff"

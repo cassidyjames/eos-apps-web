@@ -28,6 +28,8 @@ screenshots:
 ((screenshots))
 icons:
 ((icons))
+languages:
+((languages))
 color:
   primary: "((color_primary))"
   primary-text: "((color_text))"
@@ -145,6 +147,16 @@ componentsData.css("components component").each do | component |
   end
 
   appFile.sub!('((icons))', icons.rstrip)
+
+  languages = ''
+  langs = component.at_css('languages')
+  if not langs.nil?
+    langs.each {
+      |lang|
+      languages += '  - ' + lang.content + "\n"
+    }
+  end
+  appFile.sub!('((languages))', languages.rstrip)
 
   releases = ""
   # TODO: Releases

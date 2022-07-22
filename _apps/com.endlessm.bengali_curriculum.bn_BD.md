@@ -11,6 +11,8 @@ screenshots:
   - https://com-endless--cloud-soma-prod--shared-portal.s3.amazonaws.com/apps.308.screenshots.a13de1ac-12b7-4c0e-a91a-bb53cbe6d1ca_201810240022994848.png
 icons:
   "64": /images/icons/64x64/com.endlessm.bengali_curriculum.bn_BD.png
+languages:
+  - bn
 color:
   primary: "#485a6c"
   primary-text: "#fff"

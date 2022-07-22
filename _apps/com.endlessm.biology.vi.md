@@ -11,6 +11,8 @@ screenshots:
   - https://com-endless--cloud-soma-prod--shared-portal.s3.amazonaws.com/apps.248.screenshots.69577e56-b35e-4781-8946-9811b69b2d4e_20181018190794022.png
 icons:
   "64": /images/icons/64x64/com.endlessm.biology.vi.png
+languages:
+  - vi
 color:
   primary: "#485a6c"
   primary-text: "#fff"

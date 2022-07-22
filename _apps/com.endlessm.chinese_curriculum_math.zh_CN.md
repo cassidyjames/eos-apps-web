@@ -11,6 +11,8 @@ screenshots:
   - https://com-endless--cloud-soma-prod--shared-portal.s3.amazonaws.com/apps.357.screenshots.f92a0ebd-8498-4eae-8de9-4aeec7e28195_202001212023161717.png
 icons:
   "64": /images/icons/64x64/com.endlessm.chinese_curriculum_math.zh_CN.png
+languages:
+  - zh
 color:
   primary: "#485a6c"
   primary-text: "#fff"

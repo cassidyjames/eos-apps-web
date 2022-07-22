@@ -11,6 +11,8 @@ screenshots:
   - https://com-endless--cloud-soma-prod--shared-portal.s3.amazonaws.com/apps.257.screenshots.91cfeb20-44ea-47a2-887e-fdd63ae19e4e_201810182028062020.png
 icons:
   "64": /images/icons/64x64/com.endlessm.dinosaurs.vi.png
+languages:
+  - vi
 color:
   primary: "#485a6c"
   primary-text: "#fff"

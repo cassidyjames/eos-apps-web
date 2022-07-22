@@ -11,6 +11,8 @@ screenshots:
 
 icons:
   "64": /images/icons/64x64/com.endlessm.animals.bn_BD.png
+languages:
+  - bn
 color:
   primary: "#485a6c"
   primary-text: "#fff"

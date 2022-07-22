@@ -11,6 +11,44 @@ screenshots:
   - https://d3lapyynmdp1i9.cloudfront.net/screenshots/com.endlessm.ingles_con_rodrigo.es/C/com.endlessm.ingles_con_rodrigo.es-screenshot1.jpg
 icons:
   "64": /images/icons/64x64/com.endlessm.ingles_con_rodrigo.es.png
+languages:
+  - com.endlessm.ingles_con_rodrigo.es.desktop
+  - eos-subscriptions-apps
+  - Inglés con Rodrigo
+  - Aprende Inglés fácilmente con Rodrigo.
+  - Este programa ayudará a principiantes a aprender inglés. Rodrigo te ayudará a aprender aunque nunca hayas visto ninguna palabra de inglés en tu vida. ¡Práctica el alfabeto, la pronunciación, la gramática, el vocabulario, y mucho más!
+  - 64x64/com.endlessm.ingles_con_rodrigo.es.png
+  - 
+      Education
+    
+  - GPL-3.0+
+  - https://endlessm.com
+  - GNOME
+  - 
+      
+        https://d3lapyynmdp1i9.cloudfront.net/screenshots/com.endlessm.ingles_con_rodrigo.es/C/com.endlessm.ingles_con_rodrigo.es-screenshot1.jpg
+      
+      
+        https://d3lapyynmdp1i9.cloudfront.net/screenshots/com.endlessm.ingles_con_rodrigo.es/C/com.endlessm.ingles_con_rodrigo.es-screenshot2.jpg
+      
+    
+  - 
+      ar
+      bn
+      es
+      fr
+      hi
+      id
+      pt_BR
+      th
+      vi
+      zh_CN
+      zh_TW
+    
+  - 
+      https://d3lapyynmdp1i9.cloudfront.net/thumbnails/com.endlessm.ingles_con_rodrigo.es/com.endlessm.ingles_con_rodrigo.es-thumb.jpg
+    
+  - app/com.endlessm.ingles_con_rodrigo.es/x86_64/eos3
 color:
   primary: "#485a6c"
   primary-text: "#fff"

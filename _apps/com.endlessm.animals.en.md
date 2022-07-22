@@ -11,6 +11,8 @@ screenshots:
   - https://com-endless--cloud-soma-prod--shared-portal.s3.amazonaws.com/apps.226.screenshots.4d842d7d-9b33-4ce9-bf53-9409a36c0b53_201809141532851010.png
 icons:
   "64": /images/icons/64x64/com.endlessm.animals.en.png
+languages:
+  - en
 color:
   primary: "#485a6c"
   primary-text: "#fff"

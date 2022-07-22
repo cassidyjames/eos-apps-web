@@ -11,6 +11,18 @@ screenshots:
   - https://d3lapyynmdp1i9.cloudfront.net/screenshots/com.endlessm.disabilities.en/C/com.endlessm.disabilities.en-screenshot1.jpg
 icons:
   "64": /images/icons/64x64/com.endlessm.disabilities.en.png
+languages:
+  - ar
+  - bn
+  - es
+  - fr
+  - hi
+  - id
+  - pt_BR
+  - th
+  - vi
+  - zh_CN
+  - zh_TW
 color:
   primary: "#485a6c"
   primary-text: "#fff"

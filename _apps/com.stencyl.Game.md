@@ -11,6 +11,27 @@ screenshots:
   - http://static.stencyl.com/v3/images/tour/bg.jpg
 icons:
   "64": /images/icons/64x64/com.stencyl.Game.png
+languages:
+  - com.stencyl.Game.desktop
+  - Stencyl
+  - Create games without code
+  - Stencyl, LLC
+  - Stencyl is the easiest way to create games for mobile, web and desktop without code.
+  - 64x64/com.stencyl.Game.png
+  - 
+      Development
+      IDE
+    
+  - Proprietary
+  - http://community.stencyl.com/index.php?project=1;area=issues;tracker=bug
+  - http://www.stencyl.com/help/
+  - http://www.stencyl.com/
+  - 
+      
+        http://static.stencyl.com/v3/images/tour/bg.jpg
+      
+    
+  - app/com.stencyl.Game/x86_64/eos3
 color:
   primary: "#485a6c"
   primary-text: "#fff"

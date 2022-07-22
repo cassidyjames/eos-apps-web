@@ -11,6 +11,41 @@ screenshots:
   - https://com-endless--cloud-soma-prod--shared-portal.s3.amazonaws.com/app107.screenshots.9d325102-6b53-41c9-a8d9-213c8e7e30e1.jpg
 icons:
   "64": /images/icons/64x64/com.endlessm.vroom.en.png
+languages:
+  - com.endlessm.vroom.en.desktop
+  - Vroom
+  - Brain Building Moments for Families
+  - Science shows that our brains develop most rapidly during the first five years of life. Whether it’s mealtime, bathtime, or anytime in between, Vroom helps parents and caregivers nurture their children’s growing minds during these earliest years. Vroom turns everyday moments into brain building moments!     Vroom shares customized tips and activities based on the age of your child. Each tip is paired with a science-based Brainy Background explaining how the activity supports your child’s brain development. Whether it’s counting cars at the bus stop, learning about textures at the grocery store, or talking about shapes during snacktime, Vroom offers imaginative ways to make the most of your family’s everyday routines.
+  - 64x64/com.endlessm.vroom.en.png
+  - 
+      Education
+      Literature
+    
+  - proprietary
+  - https://endlessos.com
+  - 
+      
+        https://com-endless--cloud-soma-prod--shared-portal.s3.amazonaws.com/app107.screenshots.9d325102-6b53-41c9-a8d9-213c8e7e30e1.jpg
+      
+      
+        https://com-endless--cloud-soma-prod--shared-portal.s3.amazonaws.com/app107.screenshots.e14d7535-0c1d-49ed-927a-91e2ece6a71e.jpg
+      
+      
+        https://com-endless--cloud-soma-prod--shared-portal.s3.amazonaws.com/app107.screenshots.21f36f8b-13eb-4341-b24b-5a4ebc1ad1e7.jpg
+      
+    
+  - 
+  - 
+  - 
+      com.endlessm.vroom.en
+    
+  - 
+      en
+    
+  - 
+      https://com-endless--cloud-soma-prod--shared-portal.s3.amazonaws.com/app107.appCenterThumbnail.ffbccede-0beb-4601-a9e4-42feae40fd08.jpg
+    
+  - app/com.endlessm.vroom.en/x86_64/eos3
 color:
   primary: "#485a6c"
   primary-text: "#fff"

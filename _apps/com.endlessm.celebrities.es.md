@@ -11,6 +11,8 @@ screenshots:
   - https://com-endless--cloud-soma-prod--shared-portal.s3.amazonaws.com/apps.251.screenshots.92b90246-3594-4ae5-82b3-8680f633a287_201810181939153939.png
 icons:
   "64": /images/icons/64x64/com.endlessm.celebrities.es.png
+languages:
+  - es
 color:
   primary: "#485a6c"
   primary-text: "#fff"

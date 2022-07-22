@@ -11,6 +11,8 @@ screenshots:
   - https://com-endless--cloud-soma-prod--shared-portal.s3.amazonaws.com/apps.215.screenshots.442e4b9e-987c-4f9b-a84f-318e2139e15b_201809170833101313.png
 icons:
   "64": /images/icons/64x64/com.endlessm.bible.en.png
+languages:
+  - en
 color:
   primary: "#485a6c"
   primary-text: "#fff"

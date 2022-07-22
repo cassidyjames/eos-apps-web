@@ -11,6 +11,8 @@ screenshots:
 
 icons:
   "64": /images/icons/64x64/com.endlessm.animals.es_GT.png
+languages:
+  - es
 color:
   primary: "#485a6c"
   primary-text: "#fff"

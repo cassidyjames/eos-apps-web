@@ -11,6 +11,8 @@ screenshots:
   - https://com-endless--cloud-soma-prod--shared-portal.s3.amazonaws.com/apps.237.screenshots.3065fcb2-797f-4ede-b85c-706feb0e8c6d_201810161515453232.png
 icons:
   "64": /images/icons/64x64/com.endlessm.astronomy.en.png
+languages:
+  - en
 color:
   primary: "#485a6c"
   primary-text: "#fff"
