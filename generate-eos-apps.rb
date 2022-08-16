@@ -90,7 +90,7 @@ componentsData.css("components component").each do | component |
   end
   appFile.sub!('((bugtracker))', bugtracker)
 
-  color_primary = "#485a6c"
+  color_primary = "#f15a22"
   color_text = "#fff"
 
   custom_color = component.at_css('value[key="x-appcenter-color-primary"]')
