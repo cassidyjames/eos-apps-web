@@ -12,7 +12,7 @@ screenshots:
 icons:
   "64": /images/icons/64x64/com.endlessm.bible.sw.png
 color:
-  primary: "#485a6c"
+  primary: "#f15a22"
   primary-text: "#fff"
 price: false
 releases:

@@ -13,7 +13,7 @@ icons:
   "64": /images/icons/com.google.Chrome.png
   "128": /images/icons/com.google.Chrome.png
 color:
-  primary: "#485a6c"
+  primary: "#f15a22"
   primary-text: "#fff"
 price: false
 releases:

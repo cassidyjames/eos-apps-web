@@ -13,7 +13,7 @@ icons:
   "64": /images/icons/64x64/org.snap4arduino.App.png
   "128": /images/icons/128x128/org.snap4arduino.App.png
 color:
-  primary: "#485a6c"
+  primary: "#f15a22"
   primary-text: "#fff"
 price: false
 releases:
