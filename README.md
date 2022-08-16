@@ -10,54 +10,17 @@ Ideally we could download the data on demand when building, but for now I'm copy
 
 This site is a simple Jekyll-powered site hosted by GitHub Pages. To run it locally, see [the GitHub docs](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/).
 
-### Dependencies
-
-This guide assumes you're on elementary OS or a similar Ubuntu-based environment.
-
-#### Packages
-
-- `ruby-full` (should include `ruby` and `ruby-dev`)
-- `build-essential`
-- `zlib1g-dev`
-
-#### Ruby Stuff
-
-- `jekyll` and `bundler`
-
-We recommend installing gems to a (hidden) directory in your home folder:
-
-```shell
-echo '' >> ~/.bashrc
-echo '# Install Ruby Gems to ~/.gems' >> ~/.bashrc
-echo 'export GEM_HOME="$HOME/.gems"' >> ~/.bashrc
-echo 'export PATH="$HOME/.gems/bin:$PATH"' >> ~/.bashrc
-echo '' >> ~/.bashrc
-source ~/.bashrc
-```
-
-Install jekyll and bundler:
-
-```shell
-gem install jekyll bundler
-```
-
-Install gems:
-
-```shell
-bundle install
-```
-
-(Adapted from https://jekyllrb.com/docs/installation/)
+I recommend using `toolbox` to develop, especially if you're on Endless OS or Fedora Silverblue; see [this blog post](https://cassidyjames.com/blog/github-pages-jekyll-fedora-silverblue/) for details.
 
 ### Updating Apps
 
-The list of apps is generated with a simple Ruby script. To rebuild the app list, run:
+The list of apps is generated with a simple Ruby script. To rebuild the app list (e.g. if you've changed something in the Ruby script), run:
 
 ```shell
 ruby generate-eos-apps.rb
 ```
 
-This is automatically run hourly with a GitHub Action workflow.
+This script is also automatically run on push to the `main` branch if the script itself, the AppStream data, or the icons change.
 
 ### Serve
 

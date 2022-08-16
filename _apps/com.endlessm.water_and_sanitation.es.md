@@ -53,7 +53,7 @@ languages:
     
   - app/com.endlessm.water_and_sanitation.es/x86_64/eos3
 color:
-  primary: "#485a6c"
+  primary: "#f15a22"
   primary-text: "#fff"
 price: false
 releases:

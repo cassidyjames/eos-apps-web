@@ -14,31 +14,33 @@ color:
 
 <div class="home apps">
   {% for app in flatpak_apps %}
-    {% assign id = app.id | remove: '/' %}
-    <a class="app button {{app.dist}}" href="{{site.baseurl}}/{{app.slug}}" title="{{app.summary}}" id="{{id}}" tabindex="0">
-      <img width="64" height="64"
-        {% for icon in app.icons %}
-          {% if icon[0] == "64@2" %}
-            srcset="{{icon[1]}} 2x"
-          {% elsif icon[0] == "128" %}
-            srcset="{{icon[1]}}"
-          {% elsif icon[0] == "64" %}
-            srcset="{{icon[1]}}"
-          {% endif %}
-        {% endfor %}
-        src="/images/dotted-box-symbolic.svg"
-      alt="{{app.title}} icon" />
+    {% unless app.app_id == "com.google.Chrome" %}
+      <a class="app button {{ app.dist }}" href="{{ site.baseurl }}/{{ app.app_id }}" title="{{ app.summary }}" id="{{ app.app_id }}" tabindex="0">
+        <img width="64" height="64"
+          {% for icon in app.icons %}
+            {% if icon[0] == "64@2" %}
+              srcset="{{ icon[1] | prepend: site.baseurl }} 2x"
+            {% elsif icon[0] == "128" %}
+              srcset="{{ icon[1] | prepend: site.baseurl }}"
+            {% elsif icon[0] == "64" %}
+              srcset="{{ icon[1] | prepend: site.baseurl }}"
+            {% endif %}
+          {% endfor %}
+          src="{{ site.baseurl }}/images/dotted-box-symbolic.svg"
+        alt="{{ app.title }} icon" />
 
-      <span class="title">{{ app.title }}</span>
-      <span class="summary">{{ app.summary }}</span>
-    </a>
+        <span class="title">{{ app.title }}</span>
+        <span class="summary">{{ app.summary }}</span>
+      </a>
 
-    <style>
-      .app[id="{{id}}"]:hover,.app[id="{{id}}"]:focus {
-        background-color: {% if app.color.primary != "((color_primary))" %}{{app.color.primary}}{% else %}{{site.color.primary}}{% endif %};
-        color: {% if app.color.primary-text != "((color_text))" %}{{app.color.primary-text}}{% else %}{{site.color.primary-text}}{% endif %};
-      }
-    </style>
+      <style>
+        .app[id="{{ app.app_id }}"]:hover,
+        .app[id="{{ app.app_id }}"]:focus {
+          background-color: {% if app.color.primary != "((color_primary))" %}{{app.color.primary}}{% else %}{{site.color.primary}}{% endif %};
+          color: {% if app.color.primary-text != "((color_text))" %}{{app.color.primary-text}}{% else %}{{site.color.primary-text}}{% endif %};
+        }
+      </style>
+    {% endunless %}
   {% endfor %}
 </div>
 

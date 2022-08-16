@@ -80,7 +80,7 @@ languages:
     
   - app/org.learningequality.KALite/x86_64/eos3
 color:
-  primary: "#485a6c"
+  primary: "#f15a22"
   primary-text: "#fff"
 price: false
 releases:

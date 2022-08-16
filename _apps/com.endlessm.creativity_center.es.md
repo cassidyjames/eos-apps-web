@@ -24,7 +24,7 @@ languages:
   - zh_CN
   - zh_TW
 color:
-  primary: "#485a6c"
+  primary: "#f15a22"
   primary-text: "#fff"
 price: false
 releases:

@@ -75,7 +75,7 @@ languages:
   - com.endlessnetwork.htmltutorials.desktop
   - app/com.endlessnetwork.htmltutorials/x86_64/eos3
 color:
-  primary: "#485a6c"
+  primary: "#f15a22"
   primary-text: "#fff"
 price: false
 releases:
