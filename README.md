@@ -20,7 +20,7 @@ The list of apps is generated with a simple Ruby script. To rebuild the app list
 ruby generate-eos-apps.rb
 ```
 
-This script is also automatically run weekly with a GitHub Action workflow, though that's currently not really necessary since it's running against the same AppStream data each time.
+This script is also automatically run on push to the `main` branch if the script itself, the AppStream data, or the icons change.
 
 ### Serve
 
