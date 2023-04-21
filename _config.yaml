@@ -3,6 +3,7 @@ title: Endless Apps
 summary: Learning and educational apps created specifically for Endless OS
 image: "/images/endless.png"
 separator: "&sdot;"
+baseurl: "/"
 color:
   primary: "#f15a22"
   primary-text: "#fff"
