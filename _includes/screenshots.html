@@ -2,7 +2,7 @@
   <div class="carousel">
     {% for screenshot in page.screenshots %}
       <div>
-        <img alt="Screenshot" src="{{screenshot}}" />
+        <img alt="Screenshot" src="{{ screenshot | absolute_url }}" />
       </div>
     {% endfor %}
   </div>
