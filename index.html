@@ -15,18 +15,18 @@ color:
 <div class="home apps">
   {% for app in flatpak_apps %}
     {% unless app.app_id == "com.google.Chrome" %}
-      <a class="app button {{ app.dist }}" href="{{ site.baseurl }}/{{ app.app_id }}" title="{{ app.summary }}" id="{{ app.app_id }}" tabindex="0">
+      <a class="app button {{ app.dist }}" href="{{ app.app_id | relative_url }}" title="{{ app.summary }}" id="{{ app.app_id }}" tabindex="0">
         <img width="64" height="64"
           {% for icon in app.icons %}
             {% if icon[0] == "64@2" %}
-              srcset="{{ icon[1] | prepend: site.baseurl }} 2x"
+              srcset="{{ icon[1] | absolute_url }} 2x"
             {% elsif icon[0] == "128" %}
-              srcset="{{ icon[1] | prepend: site.baseurl }}"
+              srcset="{{ icon[1] | absolute_url }}"
             {% elsif icon[0] == "64" %}
-              srcset="{{ icon[1] | prepend: site.baseurl }}"
+              srcset="{{ icon[1] | absolute_url }}"
             {% endif %}
           {% endfor %}
-          src="{{ site.baseurl }}/images/dotted-box-symbolic.svg"
+          src="{{ '/images/dotted-box-symbolic.svg' | absolute_url }}"
         alt="{{ app.title }} icon" />
 
         <span class="title">{{ app.title }}</span>
@@ -36,8 +36,8 @@ color:
       <style>
         .app[id="{{ app.app_id }}"]:hover,
         .app[id="{{ app.app_id }}"]:focus {
-          background-color: {% if app.color.primary != "((color_primary))" %}{{app.color.primary}}{% else %}{{site.color.primary}}{% endif %};
-          color: {% if app.color.primary-text != "((color_text))" %}{{app.color.primary-text}}{% else %}{{site.color.primary-text}}{% endif %};
+          background-color: {% if app.color.primary != "((color_primary))" %}{{ app.color.primary }}{% else %}{{ site.color.primary }}{% endif %};
+          color: {% if app.color.primary-text != "((color_text))" %}{{ app.color.primary-text }}{% else %}{{ site.color.primary-text }}{% endif %};
         }
       </style>
     {% endunless %}

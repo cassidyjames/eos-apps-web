@@ -1,46 +1,46 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>{% if page.title %}Get {{page.title}} on {% endif %}{{site.title}}</title>
-  <meta property="og:title" content="{% if page.title %}Get {{page.title}} on {% endif %}{{site.title}}">
-  <meta itemprop="name" content="{% if page.title %}Get {{page.title}} on {% endif %}{{site.title}}">
-  <meta name="twitter:title" content="{% if page.title %}Get {{page.title}} on {% endif %}{{site.title}}">
+  <title>{% if page.title %}Get {{ page.title }} on {% endif %}{{ site.title }}</title>
+  <meta property="og:title" content="{% if page.title %}Get {{ page.title}} on {% endif %}{{ site.title }}">
+  <meta itemprop="name" content="{% if page.title %}Get {{ page.title }} on {% endif %}{{ site.title }}">
+  <meta name="twitter:title" content="{% if page.title %}Get {{ page.title }} on {% endif %}{{ site.title }}">
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
 
-  <link rel="apple-touch-icon" href="/images/icon-32.png">
-  <link rel="icon" type="image/png" href="/images/icon-32.png" sizes="192x192">
+  <link rel="apple-touch-icon" href="{{ '/images/icon-32.png' | absolute_url }}">
+  <link rel="icon" type="image/png" href="{{ '/images/icon-32.png' | absolute_url }}" sizes="192x192">
 
-  <meta name="theme-color" content="{% if page.color.primary != "((color_primary))" %}{{page.color.primary}}{% else %}{{site.color.primary}}{% endif %}">
+  <meta name="theme-color" content="{% if page.color.primary != "((color_primary))" %}{{ page.color.primary }}{% else %}{{ site.color.primary }}{% endif %}">
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:site" content="@endlessm">
 
-  <meta name="description" content="{% if page.summary %}{{page.summary}}{% else %}{{site.summary}}{% endif %}">
-  <meta property="og:description" content="{% if page.summary %}{{page.summary}}{% else %}{{site.summary}}{% endif %}">
-  <meta itemprop="description" content="{% if page.summary %}{{page.summary}}{% else %}{{site.summary}}{% endif %}">
-  <meta name="twitter:description" content="{% if page.summary %}{{page.summary}}{% else %}{{site.summary}}{% endif %}">
+  <meta name="description" content="{% if page.summary %}{{ page.summary }}{% else %}{{ site.summary }}{% endif %}">
+  <meta property="og:description" content="{% if page.summary %}{{ page.summary }}{% else %}{{ site.summary }}{% endif %}">
+  <meta itemprop="description" content="{% if page.summary %}{{ page.summary }}{% else %}{{ site.summary }}{% endif %}">
+  <meta name="twitter:description" content="{% if page.summary %}{{ page.summary }}{% else %}{{ site.summary }}{% endif %}">
 
-  <meta property="og:image" content="{% if page.screenshots %}{{page.screenshots[0]}}{% else %}{{site.image}}{% endif %}" />
-  <meta itemprop="image" content="{% if page.screenshots %}{{page.screenshots[0]}}{% else %}{{site.image}}{% endif %}" />
+  <meta property="og:image" content="{% if page.screenshots %}{{ page.screenshots[0] | absolute_url }}{% else %}{{ site.image | absolute_url }}{% endif %}" />
+  <meta itemprop="image" content="{% if page.screenshots %}{{ page.screenshots[0] | absolute_url }}{% else %}{{ site.image | absolute_url }}{% endif %}" />
 
   {% if page.icons %}
     {% for icon in page.icons %}
       {% if icon[0] == "64@2" %}
-        <meta property="og:image" content="{{icon[1]}}" />
-        <meta itemprop="image" content="{{icon[1]}}" />
+        <meta property="og:image" content="{{ icon[1] | absolute_url }}" />
+        <meta itemprop="image" content="{{ icon[1] | absolute_url }}" />
       {% endif %}
     {% endfor %}
   {% else %}
-    <meta property="og:image" content="{% if page.screenshots %}{{page.screenshots[0]}}{% else %}{{site.image}}{% endif %}" />
-    <meta itemprop="image" content="{% if page.screenshots %}{{page.screenshots[0]}}{% else %}{{site.image}}{% endif %}" />
+    <meta property="og:image" content="{% if page.screenshots %}{{ page.screenshots[0] | absolute_url }}{% else %}{{site.image}}{% endif %}" />
+    <meta itemprop="image" content="{% if page.screenshots %}{{ page.screenshots[0] | absolute_url }}{% else %}{{site.image}}{% endif %}" />
   {% endif %}
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" type="text/css" media="all" href="{{'/css/main.css' | prepend: site.baseurl | append: '?v=' | append: site.time}}">
+  <link rel="stylesheet" type="text/css" media="all" href="{{ '/css/main.css' | absolute_url | append: '?v=' | append: site.time }}">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.6.0/tiny-slider.css">
 </head>
