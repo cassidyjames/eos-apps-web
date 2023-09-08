@@ -21,7 +21,7 @@ componentsData = Nokogiri::XML(xmlData)
 parsedXML  = Crack::XML.parse(xmlData)
 convertedToJSON = parsedXML.to_json
 
-File.open("_data/apps.json", "w+") do |file|
+File.open("apps.json", "w+") do |file|
   file.write(convertedToJSON)
 end
 
