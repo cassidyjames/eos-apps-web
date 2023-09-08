@@ -2028,14 +2028,15 @@
     <id>com.endlessm.encyclopedia.es.desktop</id>
     <name>Enciclopedia</name>
     <summary>La enciclopedia más grande del mundo</summary>
+    <developer_name>Endless</developer_name>
     <description><p>Accede a la mayor enciclopedia del mundo, Wikipedia, para aprender acerca de casi cualquier tema que te imagines, ¡con o sin conexión al Internet! Este programa es un recurso invaluable para estudiantes, maestros o cualquier persona que quiera aprender. Investiga cosas para tus tareas, aprende sobre eventos mundiales y mucho, mucho más. Sólo busca el tema que quieras y podrás leer artículos relacionados y seguir enlaces a otras páginas o temas relacionados. ¡Podrás aprender más de lo que jamás habías imaginado!</p></description>
-    <icon height="64" width="64" type="cached">64x64/com.endlessm.encyclopedia.es.png</icon>
+    <icon type="cached" height="64" width="64">com.endlessm.encyclopedia.es.png</icon>
     <categories>
       <category>Education</category>
       <category>Reference</category>
     </categories>
     <project_license>proprietary</project_license>
-    <url type="homepage">https://endlessos.com</url>
+    <url type="homepage">https://endlessos.org</url>
     <screenshots>
       <screenshot type="default">
         <image type="source">https://com-endless--cloud-soma-prod--shared-portal.s3.amazonaws.com/apps.334.screenshots.eca0ac45-7232-4f4c-95db-e444972cfd47_201903211903765858.png</image>
@@ -2048,17 +2049,17 @@
       </screenshot>
     </screenshots>
     <content_rating type="oars-1.1"/>
-    <content_rating type="oars-1.1"/>
     <provides>
       <binary>com.endlessm.encyclopedia.es</binary>
     </provides>
+    <launchable type="desktop-id">com.endlessm.encyclopedia.es.desktop</launchable>
     <languages>
       <lang percentage="100">es</lang>
     </languages>
     <metadata>
       <value key="GnomeSoftware::popular-background">https://com-endless--cloud-soma-prod--shared-portal.s3.amazonaws.com/app.1832.appCenterThumbnail.70cf5f30-921d-4d6f-924c-d1a527bd1402_201903211903734444.jpg</value>
     </metadata>
-    <bundle type="flatpak" runtime="com.endlessm.apps.Platform/x86_64/5" sdk="com.endlessm.apps.Sdk/x86_64/5">app/com.endlessm.encyclopedia.es/x86_64/eos3</bundle>
+    <bundle type="flatpak" runtime="com.endlessm.apps.Platform/x86_64/6" sdk="com.endlessm.apps.Sdk/x86_64/6">app/com.endlessm.encyclopedia.es/x86_64/eos3</bundle>
   </component><component type="desktop">
     <id>com.endlessm.encyclopedia.fr.desktop</id>
     <translation type="gettext">eos-subscriptions-apps</translation>
@@ -7024,12 +7025,61 @@
     <url type="homepage">https://chrome.google.com/</url>
     <screenshots>
       <screenshot type="default">
-        <image type="source" xml:lang="pt">https://d3lapyynmdp1i9.cloudfront.net/screenshots/com.google.Chrome/pt/com.google.chrome-screenshot1.jpg</image>
-        <image type="source">https://d3lapyynmdp1i9.cloudfront.net/screenshots/com.google.Chrome/C/com.google.chrome-screenshot1.jpg</image>
-        <image type="source" xml:lang="es">https://d3lapyynmdp1i9.cloudfront.net/screenshots/com.google.Chrome/es/com.google.chrome-screenshot1.jpg</image>
+        <image type="source" xml:lang="pt">https://appstream.endlessos.org/screenshots/com.google.Chrome/pt/com.google.chrome-screenshot1.jpg</image>
+        <image type="source">https://appstream.endlessos.org/screenshots/com.google.Chrome/C/com.google.chrome-screenshot1.jpg</image>
+        <image type="source" xml:lang="es">https://appstream.endlessos.org/screenshots/com.google.Chrome/es/com.google.chrome-screenshot1.jpg</image>
       </screenshot>
     </screenshots>
     <releases>
+      <release timestamp="1693785600" version="116.0.5845.179-1"/>
+      <release timestamp="1692921600" version="116.0.5845.140-1"/>
+      <release timestamp="1692316800" version="116.0.5845.110-1"/>
+      <release timestamp="1691712000" version="116.0.5845.96-1"/>
+      <release timestamp="1690848000" version="115.0.5790.170-1"/>
+      <release timestamp="1690243200" version="115.0.5790.110-1"/>
+      <release timestamp="1689811200" version="115.0.5790.102-1"/>
+      <release timestamp="1689379200" version="115.0.5790.98-1"/>
+      <release timestamp="1687564800" version="114.0.5735.198-1"/>
+      <release timestamp="1686614400" version="114.0.5735.133-1"/>
+      <release timestamp="1685836800" version="114.0.5735.106-1"/>
+      <release timestamp="1685145600" version="114.0.5735.90-1"/>
+      <release timestamp="1684108800" version="113.0.5672.126-1"/>
+      <release timestamp="1683244800" version="113.0.5672.92-1"/>
+      <release timestamp="1682380800" version="113.0.5672.63-1"/>
+      <release timestamp="1681776000" version="112.0.5615.165-1"/>
+      <release timestamp="1681344000" version="112.0.5615.121-1"/>
+      <release timestamp="1679961600" version="112.0.5615.49-1"/>
+      <release timestamp="1679616000" version="111.0.5563.146-1"/>
+      <release timestamp="1679356800" version="111.0.5563.110-1"/>
+      <release timestamp="1677888000" version="111.0.5563.64-1"/>
+      <release timestamp="1676937600" version="110.0.5481.177-1"/>
+      <release timestamp="1676332800" version="110.0.5481.100-1"/>
+      <release timestamp="1676073600" version="110.0.5481.96-1"/>
+      <release timestamp="1675123200" version="110.0.5481.77-1"/>
+      <release timestamp="1674432000" version="109.0.5414.119-1"/>
+      <release timestamp="1672790400" version="109.0.5414.74-1"/>
+      <release timestamp="1670803200" version="108.0.5359.124-1"/>
+      <release timestamp="1670284800" version="108.0.5359.98-1"/>
+      <release timestamp="1669852800" version="108.0.5359.94-1"/>
+      <release timestamp="1669680000" version="108.0.5359.71-1"/>
+      <release timestamp="1669161600" version="107.0.5304.121-1"/>
+      <release timestamp="1667865600" version="107.0.5304.110-1"/>
+      <release timestamp="1666742400" version="107.0.5304.87-1"/>
+      <release timestamp="1666396800" version="107.0.5304.68-1"/>
+      <release timestamp="1665360000" version="106.0.5249.119-1"/>
+      <release timestamp="1664928000" version="106.0.5249.103-1"/>
+      <release timestamp="1664496000" version="106.0.5249.91-1"/>
+      <release timestamp="1663891200" version="106.0.5249.61-1"/>
+      <release timestamp="1662681600" version="105.0.5195.125-1"/>
+      <release timestamp="1662076800" version="105.0.5195.102-1"/>
+      <release timestamp="1660521600" version="104.0.5112.101-1"/>
+      <release timestamp="1659139200" version="104.0.5112.79-1"/>
+      <release timestamp="1658102400" version="103.0.5060.134-1"/>
+      <release timestamp="1656720000" version="103.0.5060.114-1"/>
+      <release timestamp="1655251200" version="103.0.5060.53-1"/>
+      <release timestamp="1654646400" version="102.0.5005.115-1"/>
+      <release timestamp="1652745600" version="102.0.5005.61-1"/>
+      <release timestamp="1652140800" version="101.0.4951.64-1"/>
       <release timestamp="1651276800" version="101.0.4951.54-1"/>
       <release timestamp="1650412800" version="101.0.4951.41-1"/>
       <release timestamp="1649808000" version="100.0.4896.127-1"/>
@@ -7123,9 +7173,9 @@
     <launchable type="desktop-id">com.google.Chrome.desktop</launchable>
     <metadata>
       <value key="EndlessOS::system-desktop-file">google-chrome.desktop</value>
-      <value key="GnomeSoftware::popular-background">https://d3lapyynmdp1i9.cloudfront.net/thumbnails/com.google.Chrome/com.google.chrome-thumb.jpg</value>
+      <value key="GnomeSoftware::popular-background">https://appstream.endlessos.org/thumbnails/com.google.Chrome/com.google.chrome-thumb.jpg</value>
     </metadata>
-    <bundle type="flatpak" runtime="org.freedesktop.Platform/x86_64/20.08" sdk="org.freedesktop.Sdk/x86_64/20.08">app/com.google.Chrome/x86_64/eos3</bundle>
+    <bundle type="flatpak" runtime="org.freedesktop.Platform/x86_64/21.08" sdk="org.freedesktop.Sdk/x86_64/21.08">app/com.google.Chrome/x86_64/eos3</bundle>
   </component><component type="desktop">
     <id>com.stencyl.Game.desktop</id>
     <name>Stencyl</name>

@@ -2,15 +2,15 @@
 app_id: com.endlessm.encyclopedia.es
 title: "Enciclopedia"
 summary: "La enciclopedia más grande del mundo"
-developer: "Enciclopedia Developers"
-homepage: https://endlessos.com
+developer: "Endless"
+homepage: https://endlessos.org
 help_page: false
 bugtracker: false
 dist: flatpak
 screenshots:
   - https://com-endless--cloud-soma-prod--shared-portal.s3.amazonaws.com/apps.334.screenshots.eca0ac45-7232-4f4c-95db-e444972cfd47_201903211903765858.png
 icons:
-  "64": /images/icons/64x64/com.endlessm.encyclopedia.es.png
+  "64": /images/icons/com.endlessm.encyclopedia.es.png
 color:
   primary: "#f15a22"
   primary-text: "#fff"
