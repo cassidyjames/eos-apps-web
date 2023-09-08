@@ -1,10 +1,9 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>{% if page.title %}Get {{ page.title }} on {% endif %}{{ site.title }}</title>
+  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
   <meta property="og:title" content="{% if page.title %}Get {{ page.title}} on {% endif %}{{ site.title }}">
   <meta itemprop="name" content="{% if page.title %}Get {{ page.title }} on {% endif %}{{ site.title }}">
-  <meta name="twitter:title" content="{% if page.title %}Get {{ page.title }} on {% endif %}{{ site.title }}">
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
@@ -14,13 +13,9 @@
 
   <meta name="theme-color" content="{% if page.color.primary != "((color_primary))" %}{{ page.color.primary }}{% else %}{{ site.color.primary }}{% endif %}">
 
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:site" content="@endlessm">
-
   <meta name="description" content="{% if page.summary %}{{ page.summary }}{% else %}{{ site.summary }}{% endif %}">
   <meta property="og:description" content="{% if page.summary %}{{ page.summary }}{% else %}{{ site.summary }}{% endif %}">
   <meta itemprop="description" content="{% if page.summary %}{{ page.summary }}{% else %}{{ site.summary }}{% endif %}">
-  <meta name="twitter:description" content="{% if page.summary %}{{ page.summary }}{% else %}{{ site.summary }}{% endif %}">
 
   <meta property="og:image" content="{% if page.screenshots %}{{ page.screenshots[0] | absolute_url }}{% else %}{{ site.image | absolute_url }}{% endif %}" />
   <meta itemprop="image" content="{% if page.screenshots %}{{ page.screenshots[0] | absolute_url }}{% else %}{{ site.image | absolute_url }}{% endif %}" />

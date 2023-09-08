@@ -8,7 +8,7 @@ help_page: https://support.google.com/chrome
 bugtracker: https://support.google.com/chrome/?p=feedback
 dist: flatpak
 screenshots:
-  - https://d3lapyynmdp1i9.cloudfront.net/screenshots/com.google.Chrome/pt/com.google.chrome-screenshot1.jpg
+  - https://appstream.endlessos.org/screenshots/com.google.Chrome/pt/com.google.chrome-screenshot1.jpg
 icons:
   "64": /images/icons/com.google.Chrome.png
   "128": /images/icons/com.google.Chrome.png
