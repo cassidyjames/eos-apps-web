@@ -5,41 +5,30 @@ color:
   primary-text: "#fff"
 ---
 
-{% assign flatpak_apps = site.apps | where:"dist","flatpak" | sort_natural: 'title' %}
+{% assign apps = site.data.apps.components.component | sort_natural: 'name' %}
 <div class="home main constrain">
   <h1>{{ site.title }}</h1>
   <h2>{{ site.summary }}</h2>
-  <p>Get these {{ flatpak_apps | size }} apps on Endless OS.</p>
+  <p>Get these {{ apps | size }} apps on Endless OS.</p>
 </div>
 
 <div class="home apps">
-  {% for app in flatpak_apps %}
-    {% unless app.app_id == "com.google.Chrome" %}
-      <a class="app button {{ app.dist }}" href="{{ app.app_id | relative_url }}" title="{{ app.summary }}" id="{{ app.app_id }}" tabindex="0">
+  {% for app in apps %}
+    {% unless app.id == "com.google.Chrome.desktop" %}
+      <a class="app button" href="{{ app.id | relative_url }}" title="{{ app.summary }}" id="{{ app.id }}" tabindex="0">
+        {{ app.icon.size }}
         <img width="64" height="64"
-          {% for icon in app.icons %}
-            {% if icon[0] == "64@2" %}
-              srcset="{{ icon[1] | absolute_url }} 2x"
-            {% elsif icon[0] == "128" %}
-              srcset="{{ icon[1] | absolute_url }}"
-            {% elsif icon[0] == "64" %}
-              srcset="{{ icon[1] | absolute_url }}"
-            {% endif %}
-          {% endfor %}
+          {% if app.icon and app.icon.size > 1 %}
+            srcset="{{ '/images/icons/' | append: app.icon[0] | absolute_url }}"
+          {% else %}
+            srcset="{{ '/images/icons/' | append: app.icon | absolute_url }}"
+          {% endif %}
           src="{{ '/images/dotted-box-symbolic.svg' | absolute_url }}"
-        alt="{{ app.title }} icon" />
+        alt="{{ app.name }} icon" />
 
         <span class="title">{{ app.title }}</span>
         <span class="summary">{{ app.summary }}</span>
       </a>
-
-      <style>
-        .app[id="{{ app.app_id }}"]:hover,
-        .app[id="{{ app.app_id }}"]:focus {
-          background-color: {% if app.color.primary != "((color_primary))" %}{{ app.color.primary }}{% else %}{{ site.color.primary }}{% endif %};
-          color: {% if app.color.primary-text != "((color_text))" %}{{ app.color.primary-text }}{% else %}{{ site.color.primary-text }}{% endif %};
-        }
-      </style>
     {% endunless %}
   {% endfor %}
 </div>
@@ -50,3 +39,4 @@ color:
     <a class="button" href="https://flathub.org/" target="_blank">More Apps from Flathub</a>
   </div>
 </footer>
+

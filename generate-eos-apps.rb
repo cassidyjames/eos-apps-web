@@ -4,6 +4,9 @@ require 'uri'
 require 'open-uri'
 require 'nokogiri'
 require 'cgi'
+require 'rubygems'
+require 'json'
+require 'crack'
 
 ############
 # eos-apps #
@@ -14,6 +17,13 @@ require 'cgi'
 # xmlData = Zlib::GzipReader.new( componentsDataGz ).read
 xmlData = File.open("appstream.xml").read
 componentsData = Nokogiri::XML(xmlData)
+
+parsedXML  = Crack::XML.parse(xmlData)
+convertedToJSON = parsedXML.to_json
+
+File.open("_data/apps.json", "w+") do |file|
+  file.write(convertedToJSON)
+end
 
 template = '---
 app_id: ((id))
