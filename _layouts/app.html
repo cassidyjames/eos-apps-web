@@ -5,17 +5,10 @@ layout: default
 <header>
   <div class="constrain">
     <img class="icon" width="64" height="64"
-      {% for icon in page.icons %}
-        {% if icon[0] == "64@2" %}
-          srcset="{{ icon[1] | absolute_url }} 2x"
-        {% elsif icon[0] == "128" %}
-          srcset="{{ icon[1] | absolute_url }}"
-        {% elsif icon[0] == "64" %}
-          srcset="{{ icon[1] | absolute_url }}"
-        {% endif %}
-      {% endfor %}
+      srcset="{{ site.baseurl }}/images/icons/64x64/{{ page.app_id }}.png"
       src="{{ site.baseurl }}/images/dotted-box-symbolic.svg"
-    alt="{{ page.title }} icon" />
+      alt="{{ page.title }} icon"
+    />
 
     <h1>{{ page.title }}</h1>
     <a class="button suggested" href="appstream://{{ page.app_id }}">Open in App Center</a>

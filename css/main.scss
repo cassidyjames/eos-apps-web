@@ -4,7 +4,6 @@
 
 @import "typography";
 @import "buttons";
-@import "infobars";
 
 @import "header";
 @import "footer";
@@ -50,4 +49,28 @@ body {
 
 .main {
   padding: 2em 1em;
+}
+
+kbd {
+  border-radius: 0.25em;
+  box-shadow:
+    0 0 0 1px rgba(black, 0.25),
+    inset 0 0 0 1px rgba(white, 0.25);
+  display: inline-block;
+  font-family: inherit;
+  font-size: 0.8em;
+  font-weight: bold;
+  margin-block: -0.25em;
+  margin-inline: 0.125em;
+  padding: 0.25em 0.5em;
+}
+
+.icon {
+  filter: drop-shadow(0 0.2em 0.25em rgba(black, 0.33));
+  height: 64px;
+  width: 64px;
+
+  @media (prefers-color-scheme: dark) {
+    filter: drop-shadow(0 0 0.75em rgba(white, 0.125));
+  }
 }
