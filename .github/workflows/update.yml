@@ -24,7 +24,7 @@ jobs:
 
       - name: Build
         run: |
-          rm apps/*
+          rm _apps/*
           ruby ./generate-eos-apps.rb
 
       - name: Commit
