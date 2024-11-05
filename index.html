@@ -9,37 +9,22 @@ color:
 <div class="home main constrain">
   <h1>{{ site.title }}</h1>
   <h2>{{ site.summary }}</h2>
-  <p>Get these {{ flatpak_apps | size }} apps on Endless OS.</p>
+  <p>Use your browser’s “Find” feature (i.e. <kbd>Ctrl</kbd><kbd>F</kbd> or <kbd>Cmd</kbd><kbd>F</kbd>) to search.</p>
 </div>
 
 <div class="home apps">
   {% for app in flatpak_apps %}
     {% unless app.app_id == "com.google.Chrome" %}
       <a class="app button {{ app.dist }}" href="{{ app.app_id | relative_url }}" title="{{ app.summary }}" id="{{ app.app_id }}" tabindex="0">
-        <img width="64" height="64"
-          {% for icon in app.icons %}
-            {% if icon[0] == "64@2" %}
-              srcset="{{ icon[1] | absolute_url }} 2x"
-            {% elsif icon[0] == "128" %}
-              srcset="{{ icon[1] | absolute_url }}"
-            {% elsif icon[0] == "64" %}
-              srcset="{{ icon[1] | absolute_url }}"
-            {% endif %}
-          {% endfor %}
-          src="{{ '/images/dotted-box-symbolic.svg' | absolute_url }}"
-        alt="{{ app.title }} icon" />
+        <img class="icon" width="64" height="64" loading="lazy"
+          srcset="{{ site.baseurl }}/images/icons/64x64/{{ app.app_id }}.png"
+          src="{{ site.baseurl }}/images/dotted-box-symbolic.svg"
+          alt="{{ app.title }} icon"
+        />
 
         <span class="title">{{ app.title }}</span>
         <span class="summary">{{ app.summary }}</span>
       </a>
-
-      <style>
-        .app[id="{{ app.app_id }}"]:hover,
-        .app[id="{{ app.app_id }}"]:focus {
-          background-color: {% if app.color.primary != "((color_primary))" %}{{ app.color.primary }}{% else %}{{ site.color.primary }}{% endif %};
-          color: {% if app.color.primary-text != "((color_text))" %}{{ app.color.primary-text }}{% else %}{{ site.color.primary-text }}{% endif %};
-        }
-      </style>
     {% endunless %}
   {% endfor %}
 </div>

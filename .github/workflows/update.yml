@@ -15,34 +15,25 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: Install dependencies
+        run: |
+          sudo apt update && sudo apt install ruby-nokogiri git
 
       - name: Checkout
-        uses: actions/checkout@v2
-
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: 2.7 # Not needed with a .ruby-version file
-          bundler-cache: true
+        uses: actions/checkout@v3
 
       - name: Build
         run: |
-          sudo apt update && sudo apt install ruby-nokogiri
-          gem install nokogiri -- --use-system-libraries
+          rm apps/*
           ruby ./generate-eos-apps.rb
 
       - name: Commit
         run: |
           FILES_CHANGED=$(git diff --name-only | wc -l)
           if [[ $FILES_CHANGED != 0 ]]; then
-            git config --local user.email "actions@github.com"
+            git config --local user.email "action@github.com"
             git config --local user.name "GitHub Action"
             git add -A
             git commit -m "Automatic update of data" -a
+            git push
           fi
-
-      - name: Push
-        uses: ad-m/github-push-action@v0.6.0
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: main

@@ -3,7 +3,7 @@ title: Endless Apps
 summary: Learning and educational apps created specifically for Endless OS
 image: "/images/endless.png"
 separator: "&sdot;"
-baseurl: "/"
+baseurl: ""
 color:
   primary: "#f15a22"
   primary-text: "#fff"
@@ -12,7 +12,13 @@ collections:
   apps:
     title: Apps
     output: true
-    permalink: /:path/
+    # Omit the trailing slash to create slightly cleaner links and make it a bit
+    # easier to grab the app ID off the end of the URL. This causes Jekyll to
+    # generate pages as `com.example.app.html` instead of `com.example.app/index.html`.
+    # Since Jekyll and GitHub Pages allow omitting the extension, URLs become
+    # `/com.example.app` instead of `/com.example.app/`. Jekyll and GitHub Pages
+    # still redirect `/com.example.app/` to `/com.example.app` for us.
+    permalink: /:path
 
 defaults:
   - scope:
@@ -23,7 +29,6 @@ defaults:
 
 markdown: kramdown
 
-permalink: pretty
 sass:
   style: compressed
 

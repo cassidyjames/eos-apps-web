@@ -1,6 +1,6 @@
 .button {
   appearance: none;
-  border-radius: 0.25em;
+  border-radius: 0.5em;
   color: inherit;
   display: inline-block;
   font-family: inherit;
@@ -10,13 +10,19 @@
   outline: 0;
   text-align: center;
   text-decoration: none;
-  transition: all 100ms ease-in;
+  transition: none;
   -moz-appearance: none;
   -webkit-appearance: none;
 
   &:focus,
-  &:hover {
-    background-color: rgba(white, 0.5);
+  &:hover,
+  &:active {
+    background-color: var(--accent);
+    box-shadow:
+      0 0 0 1px rgba(0, 0, 0, 0.125),
+      inset 0 0 0 0.125em rgba(255, 255, 255, 0.25);
+    color: white;
+    filter: brightness(1.1);
   }
 
   &:active {
@@ -25,12 +31,7 @@
 }
 
 .button.suggested {
-  background-color: #f15a22;
-  color: #fff;
+  background-color: var(--accent);
+  color: white;
   font-weight: bold;
-
-  &:focus,
-  &:hover {
-    filter: brightness(1.1);
-  }
 }
