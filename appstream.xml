@@ -6992,18 +6992,18 @@
     <summary xml:lang="zh_CN">Google 出品的一款流行的 Web 浏览器</summary>
     <summary xml:lang="zh_TW">Google 的熱門網頁瀏覽器</summary>
     <developer_name>Google</developer_name>
-    <description><p>Google Chrome is one of the world&apos;s most popular web browsers. If you have trouble watching videos online with other browsers, try Google Chrome since it has built-in support for the most common video-streaming service websites. ** Requires internet</p></description>
-    <description xml:lang="ar"><p>Google Chrome هو أحد أشهر مستعرضات الإنترنت في العالم. إذا واجهتك أية مشاكل مع المستعرضات الأخرى أثناء المشاهدة المباشرة للفيديوهات عبر الإنترنت، جرِّبْ Google Chrome، حيث يوجد به دعم مدمج لمعظم المواقع الإلكترونية التي تقدم خدمة البث المباشر للفيديوهات. ** يتطلب اتصال بالإنترنت</p></description>
-    <description xml:lang="es"><p>Google Chrome es uno de los navegadores más populares del mundo. Si tienes problemas viendo vídeos en línea con otros navegadores, prueba Google Chrome, ya que tiene soporte integrado para muchos sitios que tienen servicios de video. ** Requiere Internet</p></description>
-    <description xml:lang="fr"><p>Google Chrome est l&apos;un des navigateurs web les plus populaires dans le monde entier. Si vous éprouvez des difficultés à regarder des vidéos en ligne avec d&apos;autres navigateurs, essayez Google Chrome, car il prend en charge les sites Web de diffusion vidéo en continu les plus courants. ** Internet est nécessaire</p></description>
-    <description xml:lang="hi"><p>Google Chrome विश्व के सबसे लोकप्रिय वेब ब्राउज़र में से एक है. यदि आपको अन्य ब्राउज़र में ऑनलाइन वीडियो देखने में समस्या आ रही है, तो Google Chrome आज़माएँ चूँकि इसमें सर्वाधिक सामान्य वीडियो-स्ट्रीमिंग सर्विस वेबसाइट के लिए अंतर्निहित समर्थन होता है. ** इंटरनेट आवश्यक है</p></description>
-    <description xml:lang="id"><p>Google Chrome adalah salah satu peramban web paling populer di dunia. Jika Anda memiliki masalah ketika menyaksikan video daring menggunakan peramban lain, cobalah Google Chrome karena peramban web ini memiliki dukungan terpadu untuk berbagai layanan video streaming yang paling umum. **Membutuhkan koneksi internet</p></description>
-    <description xml:lang="pt_BR"><p>O Google Chrome é um dos navegadores mais populares que existem. Se você tiver problemas para assistir vídeos online com outros navegadores, tente o Google Chrome pois ele vem com suporte para os sites de serviços de streaming de vídeo mais conhecidos. ** Requer internet</p></description>
-    <description xml:lang="ro"><p>Google Chrome este unul dintre cele mai populare browsere web.Daca ai probleme la urmarirea videoclipurilor online cu alte browsere,incearca Google Chrome,deoarece are suport pentru cele mai folosite servicii de streaming video. ***Necesita conexiune la internet</p></description>
-    <description xml:lang="th"><p>Google Chrome เป็นหนึ่งในเว็บเบราว์เซอร์ที่เป็นที่นิยมที่สุดในโลก หากคุณพบปัญหาในการรับชมวิดีโอออนไลน๋ผ่านเว็บเบราว์เซอร์อื่น ลองใช้ Google Chrome เนื่องจากมีความช่วยเหลือในตัวเบราว์เซอร์ สำหรับการใช้งานเว็บไซต์วิดีโอสตรีมมิ่งที่นิยมทั่วไป *** ต้องเชื่อมต่ออินเทอร์เน็ต</p></description>
-    <description xml:lang="vi"><p>Google Chrome là một trong những trình duyệt web phổ biến nhất trên thế giới. Nếu bạn gặp vấn đề trong việc xem video trực tiếp với các trình duyệt khác, hãy thử dùng Google Chrome vì nó được tích hợp hỗ trợ cho hầu hết các trang web phát video trực tuyến thông dụng nhất. ** Cần có internet</p></description>
-    <description xml:lang="zh_CN"><p>Google Chrome 是一款广受欢迎的 Web 浏览器。如果您在其他浏览器中观看在线视频遇到问题，请试试 Google Chrome，因为该浏览器内置了对许多常见视频流服务网站的支持。** 需要网络连接</p></description>
-    <description xml:lang="zh_TW"><p>Google Chrome 是世界上最受歡迎的網頁瀏覽器之一。如果你使用其他瀏覽器線上觀看影片時遇到問題，請試試 Google Chrome 吧！因為它內建最常見的影片串流服務網站支援。 ** 需要網路連線</p></description>
+    <description><p>Google Chrome is one of the world&apos;s most popular web browsers. If you have trouble watching videos online with other browsers, try Google Chrome since it has built-in support for the most common video-streaming service websites.</p></description>
+    <description xml:lang="ar"><p>Google Chrome هو أحد أشهر مستعرضات الإنترنت في العالم. إذا واجهتك أية مشاكل مع المستعرضات الأخرى أثناء المشاهدة المباشرة للفيديوهات عبر الإنترنت، جرِّبْ Google Chrome، حيث يوجد به دعم مدمج لمعظم المواقع الإلكترونية التي تقدم خدمة البث المباشر للفيديوهات.</p></description>
+    <description xml:lang="es"><p>Google Chrome es uno de los navegadores más populares del mundo. Si tienes problemas viendo vídeos en línea con otros navegadores, prueba Google Chrome, ya que tiene soporte integrado para muchos sitios que tienen servicios de video.</p></description>
+    <description xml:lang="fr"><p>Google Chrome est l&apos;un des navigateurs web les plus populaires dans le monde entier. Si vous éprouvez des difficultés à regarder des vidéos en ligne avec d&apos;autres navigateurs, essayez Google Chrome, car il prend en charge les sites Web de diffusion vidéo en continu les plus courants.</p></description>
+    <description xml:lang="hi"><p>Google Chrome विश्व के सबसे लोकप्रिय वेब ब्राउज़र में से एक है. यदि आपको अन्य ब्राउज़र में ऑनलाइन वीडियो देखने में समस्या आ रही है, तो Google Chrome आज़माएँ चूँकि इसमें सर्वाधिक सामान्य वीडियो-स्ट्रीमिंग सर्विस वेबसाइट के लिए अंतर्निहित समर्थन होता है.</p></description>
+    <description xml:lang="id"><p>Google Chrome adalah salah satu peramban web paling populer di dunia. Jika Anda memiliki masalah ketika menyaksikan video daring menggunakan peramban lain, cobalah Google Chrome karena peramban web ini memiliki dukungan terpadu untuk berbagai layanan video streaming yang paling umum.</p></description>
+    <description xml:lang="pt_BR"><p>O Google Chrome é um dos navegadores mais populares que existem. Se você tiver problemas para assistir vídeos online com outros navegadores, tente o Google Chrome pois ele vem com suporte para os sites de serviços de streaming de vídeo mais conhecidos.</p></description>
+    <description xml:lang="ro"><p>Google Chrome este unul dintre cele mai populare browsere web.Daca ai probleme la urmarirea videoclipurilor online cu alte browsere,incearca Google Chrome,deoarece are suport pentru cele mai folosite servicii de streaming video.</p></description>
+    <description xml:lang="th"><p>Google Chrome เป็นหนึ่งในเว็บเบราว์เซอร์ที่เป็นที่นิยมที่สุดในโลก หากคุณพบปัญหาในการรับชมวิดีโอออนไลน๋ผ่านเว็บเบราว์เซอร์อื่น ลองใช้ Google Chrome เนื่องจากมีความช่วยเหลือในตัวเบราว์เซอร์ สำหรับการใช้งานเว็บไซต์วิดีโอสตรีมมิ่งที่นิยมทั่วไป</p></description>
+    <description xml:lang="vi"><p>Google Chrome là một trong những trình duyệt web phổ biến nhất trên thế giới. Nếu bạn gặp vấn đề trong việc xem video trực tiếp với các trình duyệt khác, hãy thử dùng Google Chrome vì nó được tích hợp hỗ trợ cho hầu hết các trang web phát video trực tuyến thông dụng nhất.</p></description>
+    <description xml:lang="zh_CN"><p>Google Chrome 是一款广受欢迎的 Web 浏览器。如果您在其他浏览器中观看在线视频遇到问题，请试试 Google Chrome，因为该浏览器内置了对许多常见视频流服务网站的支持。</p></description>
+    <description xml:lang="zh_TW"><p>Google Chrome 是世界上最受歡迎的網頁瀏覽器之一。如果你使用其他瀏覽器線上觀看影片時遇到問題，請試試 Google Chrome 吧！因為它內建最常見的影片串流服務網站支援。</p></description>
     <icon type="cached" height="64" width="64">com.google.Chrome.png</icon>
     <icon type="cached" height="128" width="128">com.google.Chrome.png</icon>
     <categories>
@@ -7030,7 +7030,72 @@
         <image type="source" xml:lang="es">https://appstream.endlessos.org/screenshots/com.google.Chrome/es/com.google.chrome-screenshot1.jpg</image>
       </screenshot>
     </screenshots>
+    <content_rating type="oars-1.1"/>
     <releases>
+      <release timestamp="1730160000" version="130.0.6723.91-1"/>
+      <release timestamp="1729555200" version="130.0.6723.69-1"/>
+      <release timestamp="1728950400" version="130.0.6723.58-1"/>
+      <release timestamp="1728345600" version="129.0.6668.100-1"/>
+      <release timestamp="1727740800" version="129.0.6668.89-1"/>
+      <release timestamp="1727049600" version="129.0.6668.70-1"/>
+      <release timestamp="1726444800" version="129.0.6668.58-1"/>
+      <release timestamp="1725926400" version="128.0.6613.137-1"/>
+      <release timestamp="1724976000" version="128.0.6613.119-1"/>
+      <release timestamp="1724803200" version="128.0.6613.113-1"/>
+      <release timestamp="1724198400" version="128.0.6613.84-1"/>
+      <release timestamp="1723507200" version="127.0.6533.119-1"/>
+      <release timestamp="1722816000" version="127.0.6533.99-1"/>
+      <release timestamp="1722211200" version="127.0.6533.88-1"/>
+      <release timestamp="1721606400" version="127.0.6533.72-1"/>
+      <release timestamp="1721001600" version="126.0.6478.182-1"/>
+      <release timestamp="1719014400" version="126.0.6478.126-1"/>
+      <release timestamp="1718668800" version="126.0.6478.114-1"/>
+      <release timestamp="1718150400" version="126.0.6478.61-1"/>
+      <release timestamp="1718064000" version="126.0.6478.55-1"/>
+      <release timestamp="1716940800" version="125.0.6422.141-1"/>
+      <release timestamp="1716336000" version="125.0.6422.112-1"/>
+      <release timestamp="1716249600" version="125.0.6422.76-1"/>
+      <release timestamp="1715644800" version="125.0.6422.60-1"/>
+      <release timestamp="1715299200" version="124.0.6367.207-1"/>
+      <release timestamp="1715126400" version="124.0.6367.201-1"/>
+      <release timestamp="1714953600" version="124.0.6367.155-1"/>
+      <release timestamp="1714435200" version="124.0.6367.118-1"/>
+      <release timestamp="1713916800" version="124.0.6367.91-1"/>
+      <release timestamp="1713744000" version="124.0.6367.78-1"/>
+      <release timestamp="1712880000" version="124.0.6367.60-1"/>
+      <release timestamp="1712534400" version="123.0.6312.122-1"/>
+      <release timestamp="1711929600" version="123.0.6312.105-1"/>
+      <release timestamp="1711324800" version="123.0.6312.86-1"/>
+      <release timestamp="1710720000" version="123.0.6312.58-1"/>
+      <release timestamp="1710201600" version="122.0.6261.128-1"/>
+      <release timestamp="1709596800" version="122.0.6261.111-1"/>
+      <release timestamp="1708905600" version="122.0.6261.94-1"/>
+      <release timestamp="1708560000" version="122.0.6261.69-1"/>
+      <release timestamp="1708300800" version="122.0.6261.57-1"/>
+      <release timestamp="1707696000" version="121.0.6167.184-1"/>
+      <release timestamp="1707091200" version="121.0.6167.160-1"/>
+      <release timestamp="1706572800" version="121.0.6167.139-1"/>
+      <release timestamp="1705708800" version="121.0.6167.85-1"/>
+      <release timestamp="1705017600" version="120.0.6099.224-1"/>
+      <release timestamp="1704672000" version="120.0.6099.216-1"/>
+      <release timestamp="1704153600" version="120.0.6099.199-1"/>
+      <release timestamp="1702944000" version="120.0.6099.129-1"/>
+      <release timestamp="1702252800" version="120.0.6099.109-1"/>
+      <release timestamp="1701734400" version="120.0.6099.71-1"/>
+      <release timestamp="1701302400" version="120.0.6099.62-1"/>
+      <release timestamp="1701043200" version="119.0.6045.199-1"/>
+      <release timestamp="1699833600" version="119.0.6045.159-1"/>
+      <release timestamp="1699315200" version="119.0.6045.123-1"/>
+      <release timestamp="1698624000" version="119.0.6045.105-1"/>
+      <release timestamp="1698019200" version="118.0.5993.117-1"/>
+      <release timestamp="1697414400" version="118.0.5993.88-1"/>
+      <release timestamp="1696809600" version="118.0.5993.70-1"/>
+      <release timestamp="1696204800" version="117.0.5938.149-1"/>
+      <release timestamp="1695772800" version="117.0.5938.132-1"/>
+      <release timestamp="1695168000" version="117.0.5938.92-1"/>
+      <release timestamp="1694736000" version="117.0.5938.88-1"/>
+      <release timestamp="1694217600" version="117.0.5938.62-1"/>
+      <release timestamp="1694217600" version="116.0.5845.187-1"/>
       <release timestamp="1693785600" version="116.0.5845.179-1"/>
       <release timestamp="1692921600" version="116.0.5845.140-1"/>
       <release timestamp="1692316800" version="116.0.5845.110-1"/>
@@ -7175,7 +7240,7 @@
       <value key="EndlessOS::system-desktop-file">google-chrome.desktop</value>
       <value key="GnomeSoftware::popular-background">https://appstream.endlessos.org/thumbnails/com.google.Chrome/com.google.chrome-thumb.jpg</value>
     </metadata>
-    <bundle type="flatpak" runtime="org.freedesktop.Platform/x86_64/21.08" sdk="org.freedesktop.Sdk/x86_64/21.08">app/com.google.Chrome/x86_64/eos3</bundle>
+    <bundle type="flatpak" runtime="org.freedesktop.Platform/x86_64/23.08" sdk="org.freedesktop.Sdk/x86_64/23.08">app/com.google.Chrome/x86_64/eos3</bundle>
   </component><component type="desktop">
     <id>com.stencyl.Game.desktop</id>
     <name>Stencyl</name>
