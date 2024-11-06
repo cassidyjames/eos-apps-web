@@ -11,8 +11,8 @@ on:
       - '_config.yaml'
       - 'appstream.xml'
       - 'generate-eos-apps.rb'
-      - '.github/workflows/'
-      - 'images/icons/'
+      - '.github/workflows/**'
+      - 'images/icons/**'
 
 jobs:
   build:
