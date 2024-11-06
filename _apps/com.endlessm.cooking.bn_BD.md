@@ -2,21 +2,9 @@
 app_id: com.endlessm.cooking.bn_BD
 title: "রান্না"
 summary: "সুস্বাদু রেসিপি এবং রান্নার জন্য বিভিন্ন বুদ্ধি"
-developer: "রান্না Developers"
-homepage: https://endlessm.com
-help_page: false
-bugtracker: false
 dist: flatpak
 screenshots:
   - https://d3lapyynmdp1i9.cloudfront.net/screenshots/com.endlessm.cooking.bn_BD/C/com.endlessm.cooking.bn_bd-screenshot1.jpg
-icons:
-  "64": /images/icons/64x64/com.endlessm.cooking.bn_BD.png
-color:
-  primary: "#f15a22"
-  primary-text: "#fff"
-price: false
-releases:
-
 redirect_from: /com.endlessm.cooking.bn_BD.desktop/
 ---
 

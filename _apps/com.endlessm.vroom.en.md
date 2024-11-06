@@ -2,21 +2,9 @@
 app_id: com.endlessm.vroom.en
 title: "Vroom"
 summary: "Brain Building Moments for Families"
-developer: "Vroom Developers"
-homepage: https://endlessos.com
-help_page: false
-bugtracker: false
 dist: flatpak
 screenshots:
   - https://com-endless--cloud-soma-prod--shared-portal.s3.amazonaws.com/app107.screenshots.9d325102-6b53-41c9-a8d9-213c8e7e30e1.jpg
-icons:
-  "64": /images/icons/64x64/com.endlessm.vroom.en.png
-color:
-  primary: "#f15a22"
-  primary-text: "#fff"
-price: false
-releases:
-
 redirect_from: /com.endlessm.vroom.en.desktop/
 ---
 

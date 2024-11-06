@@ -2,21 +2,9 @@
 app_id: com.endlessm.soccer.th
 title: "ฟุตบอล"
 summary: "รู้จักทีมโปรดและผู้เล่นให้มากขึ้น"
-developer: "ฟุตบอล Developers"
-homepage: https://endlessos.com
-help_page: false
-bugtracker: false
 dist: flatpak
 screenshots:
   - https://com-endless--cloud-soma-prod--shared-portal.s3.amazonaws.com/apps.295.screenshots.b4715a2b-a442-4b66-a366-254ebd8511f9_201810232113312424.png
-icons:
-  "64": /images/icons/64x64/com.endlessm.soccer.th.png
-color:
-  primary: "#f15a22"
-  primary-text: "#fff"
-price: false
-releases:
-
 redirect_from: /com.endlessm.soccer.th.desktop/
 ---
 

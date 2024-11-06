@@ -2,21 +2,9 @@
 app_id: com.endlessm.farming.bn_BD
 title: "কৃষিকাজ"
 summary: "শস্য এবং পশুপাখি পালন সম্পর্কে জানুন"
-developer: "কৃষিকাজ Developers"
-homepage: https://endlessos.com
-help_page: false
-bugtracker: false
 dist: flatpak
 screenshots:
   - https://com-endless--cloud-soma-prod--shared-portal.s3.amazonaws.com/apps.258.screenshots.20ba3617-e037-4002-85bd-df4027a026e8_201810231849981414.png
-icons:
-  "64": /images/icons/64x64/com.endlessm.farming.bn_BD.png
-color:
-  primary: "#f15a22"
-  primary-text: "#fff"
-price: false
-releases:
-
 redirect_from: /com.endlessm.farming.bn_BD.desktop/
 ---
 

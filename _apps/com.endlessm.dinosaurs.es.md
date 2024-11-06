@@ -2,21 +2,9 @@
 app_id: com.endlessm.dinosaurs.es
 title: "Dinosaurios"
 summary: "Regresando la prehistoria a tu vida para que la puedas descubrir nuevamente"
-developer: "Dinosaurios Developers"
-homepage: https://endlessm.com
-help_page: false
-bugtracker: false
 dist: flatpak
 screenshots:
   - https://d3lapyynmdp1i9.cloudfront.net/screenshots/com.endlessm.dinosaurs.es/C/com.endlessm.dinosaurs.es-screenshot1.jpg
-icons:
-  "64": /images/icons/64x64/com.endlessm.dinosaurs.es.png
-color:
-  primary: "#f15a22"
-  primary-text: "#fff"
-price: false
-releases:
-
 redirect_from: /com.endlessm.dinosaurs.es.desktop/
 ---
 

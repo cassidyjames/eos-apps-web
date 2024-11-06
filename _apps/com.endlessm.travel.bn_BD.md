@@ -2,21 +2,9 @@
 app_id: com.endlessm.travel.bn_BD
 title: "ভ্রমণ"
 summary: "আপনার ঘরে বসেই বিশ্বের চারদিকে ভ্রমণ করে আসুন"
-developer: "ভ্রমণ Developers"
-homepage: https://endlessos.com
-help_page: false
-bugtracker: false
 dist: flatpak
 screenshots:
   - https://com-endless--cloud-soma-prod--shared-portal.s3.amazonaws.com/apps.304.screenshots.e4978c8e-cd45-4c78-bf68-0bad7f21260b_201810232151922828.png
-icons:
-  "64": /images/icons/64x64/com.endlessm.travel.bn_BD.png
-color:
-  primary: "#f15a22"
-  primary-text: "#fff"
-price: false
-releases:
-
 redirect_from: /com.endlessm.travel.bn_BD.desktop/
 ---
 

@@ -2,21 +2,9 @@
 app_id: com.endlessm.wiki_art.en
 title: "WikiArt"
 summary: "A collection of great visual works"
-developer: "WikiArt Developers"
-homepage: https://endlessm.com
-help_page: false
-bugtracker: false
 dist: flatpak
 screenshots:
   - https://d3lapyynmdp1i9.cloudfront.net/screenshots/com.endlessm.wiki_art.en/C/com.endlessm.wiki_art.en-screenshot1.jpg
-icons:
-  "64": /images/icons/64x64/com.endlessm.wiki_art.en.png
-color:
-  primary: "#f15a22"
-  primary-text: "#fff"
-price: false
-releases:
-
 redirect_from: /com.endlessm.wiki_art.en.desktop/
 ---
 

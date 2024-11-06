@@ -2,20 +2,8 @@
 app_id: com.endlessm.inibudi_profesi.id
 title: "Profesi dan Inspirasi"
 summary: "Video inspirasi dari Inibudi.org"
-developer: "Profesi dan Inspirasi Developers"
-homepage: https://endlessos.com
-help_page: false
-bugtracker: false
 dist: flatpak
 screenshots:
-
-icons:
-  "64": /images/icons/64x64/com.endlessm.inibudi_profesi.id.png
-color:
-  primary: "#f15a22"
-  primary-text: "#fff"
-price: false
-releases:
 
 redirect_from: /com.endlessm.inibudi_profesi.id.desktop/
 ---

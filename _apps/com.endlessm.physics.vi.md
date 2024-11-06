@@ -2,21 +2,9 @@
 app_id: com.endlessm.physics.vi
 title: "Vật lý"
 summary: "Tìm hiểu về những bí ẩn của thế giới vật lý"
-developer: "Vật lý Developers"
-homepage: https://endlessos.com
-help_page: false
-bugtracker: false
 dist: flatpak
 screenshots:
   - https://com-endless--cloud-soma-prod--shared-portal.s3.amazonaws.com/apps.289.screenshots.b32e79c4-b2bb-4f9c-97f4-03807e94a962_201810232053354848.png
-icons:
-  "64": /images/icons/64x64/com.endlessm.physics.vi.png
-color:
-  primary: "#f15a22"
-  primary-text: "#fff"
-price: false
-releases:
-
 redirect_from: /com.endlessm.physics.vi.desktop/
 ---
 

@@ -2,21 +2,9 @@
 app_id: com.endlessm.geography.bn_BD
 title: "ভূগোল"
 summary: "বিশ্বের সকল দেশ সম্পর্কে জানুন"
-developer: "ভূগোল Developers"
-homepage: https://endlessos.com
-help_page: false
-bugtracker: false
 dist: flatpak
 screenshots:
   - https://com-endless--cloud-soma-prod--shared-portal.s3.amazonaws.com/apps.262.screenshots.be2979b1-d7fe-40fb-9920-4c33d0759a0e_201810231858725454.png
-icons:
-  "64": /images/icons/64x64/com.endlessm.geography.bn_BD.png
-color:
-  primary: "#f15a22"
-  primary-text: "#fff"
-price: false
-releases:
-
 redirect_from: /com.endlessm.geography.bn_BD.desktop/
 ---
 

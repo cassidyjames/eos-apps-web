@@ -2,21 +2,9 @@
 app_id: com.endlessm.encyclopedia.vi
 title: "Bách khoa toàn thư"
 summary: "Bách khoa toàn thư miễn phí mà ai cũng có thể đóng góp"
-developer: "Bách khoa toàn thư Developers"
-homepage: https://endlessm.com
-help_page: false
-bugtracker: false
 dist: flatpak
 screenshots:
   - https://d3lapyynmdp1i9.cloudfront.net/screenshots/com.endlessm.encyclopedia.vi/C/com.endlessm.encyclopedia-screenshot1.jpg
-icons:
-  "64": /images/icons/64x64/com.endlessm.encyclopedia.vi.png
-color:
-  primary: "#f15a22"
-  primary-text: "#fff"
-price: false
-releases:
-
 redirect_from: /com.endlessm.encyclopedia.vi.desktop/
 ---
 

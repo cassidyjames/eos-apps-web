@@ -2,21 +2,9 @@
 app_id: com.endlessm.astronomy.en
 title: "Astronomy"
 summary: "Learn about the universe and all it contains"
-developer: "Astronomy Developers"
-homepage: https://endlessos.com
-help_page: false
-bugtracker: false
 dist: flatpak
 screenshots:
   - https://com-endless--cloud-soma-prod--shared-portal.s3.amazonaws.com/apps.237.screenshots.3065fcb2-797f-4ede-b85c-706feb0e8c6d_201810161515453232.png
-icons:
-  "64": /images/icons/64x64/com.endlessm.astronomy.en.png
-color:
-  primary: "#f15a22"
-  primary-text: "#fff"
-price: false
-releases:
-
 redirect_from: /com.endlessm.astronomy.en.desktop/
 ---
 

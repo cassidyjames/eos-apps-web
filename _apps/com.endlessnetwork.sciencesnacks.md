@@ -2,22 +2,9 @@
 app_id: com.endlessnetwork.sciencesnacks
 title: "Science Snacks"
 summary: "Hands-on science activities with easy-to-follow instructions, advice, and helpful hints."
-developer: "Science Snacks Developers"
-homepage: http://www.endlessm.com
-help_page: false
-bugtracker: false
 dist: flatpak
 screenshots:
   - http://grupopremiere.com/project/endlessm/sciencesnacks/com.endlessm.ScienceSnacks-thumb-1.jpeg
-icons:
-  "64": /images/icons/64x64/com.endlessnetwork.sciencesnacks.png
-  "128": /images/icons/128x128/com.endlessnetwork.sciencesnacks.png
-color:
-  primary: "#f15a22"
-  primary-text: "#fff"
-price: false
-releases:
-
 redirect_from: /com.endlessnetwork.sciencesnacks.desktop/
 ---
 

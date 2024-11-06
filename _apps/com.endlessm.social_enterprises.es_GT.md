@@ -2,21 +2,9 @@
 app_id: com.endlessm.social_enterprises.es_GT
 title: "Empresas sociales"
 summary: "Todo sobre las empresas sociales"
-developer: "Empresas sociales Developers"
-homepage: https://endlessos.com
-help_page: false
-bugtracker: false
 dist: flatpak
 screenshots:
   - https://com-endless--cloud-soma-prod--shared-portal.s3.amazonaws.com/apps.355.screenshots.f980bf86-662f-4c82-a003-8f93b658edb1_202001172109522222.png
-icons:
-  "64": /images/icons/64x64/com.endlessm.social_enterprises.es_GT.png
-color:
-  primary: "#f15a22"
-  primary-text: "#fff"
-price: false
-releases:
-
 redirect_from: /com.endlessm.social_enterprises.es_GT.desktop/
 ---
 

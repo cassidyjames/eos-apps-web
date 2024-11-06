@@ -2,21 +2,9 @@
 app_id: com.endlessm.chinese_curriculum_math.zh_CN
 title: "小学数学"
 summary: "小学数学人教版同步精练"
-developer: "小学数学 Developers"
-homepage: https://endlessos.com
-help_page: false
-bugtracker: false
 dist: flatpak
 screenshots:
   - https://com-endless--cloud-soma-prod--shared-portal.s3.amazonaws.com/apps.357.screenshots.f92a0ebd-8498-4eae-8de9-4aeec7e28195_202001212023161717.png
-icons:
-  "64": /images/icons/64x64/com.endlessm.chinese_curriculum_math.zh_CN.png
-color:
-  primary: "#f15a22"
-  primary-text: "#fff"
-price: false
-releases:
-
 redirect_from: /com.endlessm.chinese_curriculum_math.zh_CN.desktop/
 ---
 

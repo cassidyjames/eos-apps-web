@@ -2,21 +2,9 @@
 app_id: com.endlessm.maternity.en
 title: "Maternity"
 summary: "Valuable information for new mothers"
-developer: "Maternity Developers"
-homepage: https://endlessm.com
-help_page: false
-bugtracker: false
 dist: flatpak
 screenshots:
   - https://d3lapyynmdp1i9.cloudfront.net/screenshots/com.endlessm.maternity.en/C/com.endlessm.maternity.en-screenshot1.jpg
-icons:
-  "64": /images/icons/64x64/com.endlessm.maternity.en.png
-color:
-  primary: "#f15a22"
-  primary-text: "#fff"
-price: false
-releases:
-
 redirect_from: /com.endlessm.maternity.en.desktop/
 ---
 

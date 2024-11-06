@@ -2,21 +2,9 @@
 app_id: com.endlessm.textbooks.en
 title: "Textbooks"
 summary: "Math and science textbooks"
-developer: "Textbooks Developers"
-homepage: https://endlessos.com
-help_page: false
-bugtracker: false
 dist: flatpak
 screenshots:
   - https://com-endless--cloud-soma-prod--shared-portal.s3.amazonaws.com/apps.356.screenshots.79ac917d-e258-4e3a-aabb-75634d5f69dd_202001211936241919.png
-icons:
-  "64": /images/icons/64x64/com.endlessm.textbooks.en.png
-color:
-  primary: "#f15a22"
-  primary-text: "#fff"
-price: false
-releases:
-
 redirect_from: /com.endlessm.textbooks.en.desktop/
 ---
 

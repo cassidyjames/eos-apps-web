@@ -2,22 +2,9 @@
 app_id: com.endlessnetwork.guitartutorials
 title: "Guitar Tutorials"
 summary: "Pick up your guitar and start making your own music!"
-developer: "Endless"
-homepage: https://endlessos.com
-help_page: false
-bugtracker: false
 dist: flatpak
 screenshots:
   - http://grupopremiere.com/project/endlessm/guitar/thumb1.jpeg
-icons:
-  "64": /images/icons/64x64/com.endlessnetwork.guitartutorials.png
-  "128": /images/icons/128x128/com.endlessnetwork.guitartutorials.png
-color:
-  primary: "#f15a22"
-  primary-text: "#fff"
-price: false
-releases:
-
 redirect_from: /com.endlessnetwork.guitartutorials.desktop/
 ---
 

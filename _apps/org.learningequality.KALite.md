@@ -2,21 +2,9 @@
 app_id: org.learningequality.KALite
 title: "Virtual School"
 summary: "Free educational videos on almost any subject"
-developer: "Virtual School Developers"
-homepage: http://www.endlessm.com
-help_page: false
-bugtracker: false
 dist: flatpak
 screenshots:
   - https://d3lapyynmdp1i9.cloudfront.net/screenshots/org.learningequality.KALite/C/org.learningequality.kalite-screenshot1.jpg
-icons:
-  "64": /images/icons/64x64/org.learningequality.KALite.png
-color:
-  primary: "#f15a22"
-  primary-text: "#fff"
-price: false
-releases:
-
 redirect_from: /org.learningequality.KALite.desktop/
 ---
 

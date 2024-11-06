@@ -2,21 +2,9 @@
 app_id: com.endlessm.green_curriculum.en
 title: "Green Curriculum"
 summary: "Education Curriculum about Energy"
-developer: "Green Curriculum Developers"
-homepage: https://endlessos.com
-help_page: false
-bugtracker: false
 dist: flatpak
 screenshots:
   - https://com-endless--cloud-soma-prod--shared-portal.s3.amazonaws.com/app196.screenshots.78d6c25a-91b1-4848-9b5e-299d3b15135d.png
-icons:
-  "64": /images/icons/64x64/com.endlessm.green_curriculum.en.png
-color:
-  primary: "#f15a22"
-  primary-text: "#fff"
-price: false
-releases:
-
 redirect_from: /com.endlessm.green_curriculum.en.desktop/
 ---
 

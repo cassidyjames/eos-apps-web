@@ -2,21 +2,9 @@
 app_id: com.endlessm.health.ar
 title: "الصحة"
 summary: "حافظ على نفسك ومن تحب في صحةٍ جيدةٍ"
-developer: "الصحة Developers"
-homepage: https://endlessm.com
-help_page: false
-bugtracker: false
 dist: flatpak
 screenshots:
   - https://d3lapyynmdp1i9.cloudfront.net/screenshots/com.endlessm.health.ar/C/com.endlessm.health.ar-screenshot1.jpg
-icons:
-  "64": /images/icons/64x64/com.endlessm.health.ar.png
-color:
-  primary: "#f15a22"
-  primary-text: "#fff"
-price: false
-releases:
-
 redirect_from: /com.endlessm.health.ar.desktop/
 ---
 

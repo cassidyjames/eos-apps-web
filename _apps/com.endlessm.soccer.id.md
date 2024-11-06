@@ -2,21 +2,9 @@
 app_id: com.endlessm.soccer.id
 title: "Sepak Bola"
 summary: "Pelajari tim dan pemain favorit Anda"
-developer: "Sepak Bola Developers"
-homepage: https://endlessos.com
-help_page: false
-bugtracker: false
 dist: flatpak
 screenshots:
   - https://com-endless--cloud-soma-prod--shared-portal.s3.amazonaws.com/apps.294.screenshots.6d2ea2c4-4382-415f-ba41-92347b6b6fde_201810232113033030.png
-icons:
-  "64": /images/icons/64x64/com.endlessm.soccer.id.png
-color:
-  primary: "#f15a22"
-  primary-text: "#fff"
-price: false
-releases:
-
 redirect_from: /com.endlessm.soccer.id.desktop/
 ---
 

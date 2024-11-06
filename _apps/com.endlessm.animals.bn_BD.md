@@ -2,20 +2,8 @@
 app_id: com.endlessm.animals.bn_BD
 title: "পশুপাখি"
 summary: "পৃথিবীর পশুপাখি সম্পর্কে জানুন"
-developer: "পশুপাখি Developers"
-homepage: https://endlessos.com
-help_page: false
-bugtracker: false
 dist: flatpak
 screenshots:
-
-icons:
-  "64": /images/icons/64x64/com.endlessm.animals.bn_BD.png
-color:
-  primary: "#f15a22"
-  primary-text: "#fff"
-price: false
-releases:
 
 redirect_from: /com.endlessm.animals.bn_BD.desktop/
 ---

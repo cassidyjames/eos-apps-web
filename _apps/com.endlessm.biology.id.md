@@ -2,21 +2,9 @@
 app_id: com.endlessm.biology.id
 title: "Biologi"
 summary: "Belajar mengenai dunia yang hidup di sekitar Anda"
-developer: "Biologi Developers"
-homepage: https://endlessos.com
-help_page: false
-bugtracker: false
 dist: flatpak
 screenshots:
   - https://com-endless--cloud-soma-prod--shared-portal.s3.amazonaws.com/apps.245.screenshots.57c2fd2a-e8a1-4f27-864b-b9707c134c4d_201810181851271717.png
-icons:
-  "64": /images/icons/64x64/com.endlessm.biology.id.png
-color:
-  primary: "#f15a22"
-  primary-text: "#fff"
-price: false
-releases:
-
 redirect_from: /com.endlessm.biology.id.desktop/
 ---
 

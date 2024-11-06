@@ -2,21 +2,9 @@
 app_id: com.endlessm.history.vi
 title: "Lịch sử"
 summary: "Tìm hiểu về các sự kiện và nền văn minh của thế giới"
-developer: "Lịch sử Developers"
-homepage: https://endlessos.com
-help_page: false
-bugtracker: false
 dist: flatpak
 screenshots:
   - https://com-endless--cloud-soma-prod--shared-portal.s3.amazonaws.com/apps.277.screenshots.ee0bdbac-d3d6-4c80-a00d-c3ecaadaac4c_201810231939214848.png
-icons:
-  "64": /images/icons/64x64/com.endlessm.history.vi.png
-color:
-  primary: "#f15a22"
-  primary-text: "#fff"
-price: false
-releases:
-
 redirect_from: /com.endlessm.history.vi.desktop/
 ---
 

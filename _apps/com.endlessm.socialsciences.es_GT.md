@@ -2,21 +2,9 @@
 app_id: com.endlessm.socialsciences.es_GT
 title: "Ciencias sociales"
 summary: "Materias que exploran el individuo y la sociedad"
-developer: "Ciencias sociales Developers"
-homepage: https://endlessos.com
-help_page: false
-bugtracker: false
 dist: flatpak
 screenshots:
   - https://com-endless--cloud-soma-prod--shared-portal.s3.amazonaws.com/apps.299.screenshots.1069bb6d-9312-4819-9210-0a0c96fd93d4_201810232130012626.png
-icons:
-  "64": /images/icons/64x64/com.endlessm.socialsciences.es_GT.png
-color:
-  primary: "#f15a22"
-  primary-text: "#fff"
-price: false
-releases:
-
 redirect_from: /com.endlessm.socialsciences.es_GT.desktop/
 ---
 

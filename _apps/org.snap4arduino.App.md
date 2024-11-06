@@ -2,22 +2,9 @@
 app_id: org.snap4arduino.App
 title: "Snap4Arduino"
 summary: "Snap! visual programming language for Arduino"
-developer: "Arduino.org"
-homepage: http://snap4arduino.org
-help_page: false
-bugtracker: https://github.com/bromagosa/Snap4Arduino/issues
 dist: flatpak
 screenshots:
   - http://i.imgur.com/uKmQNTZ.png
-icons:
-  "64": /images/icons/64x64/org.snap4arduino.App.png
-  "128": /images/icons/128x128/org.snap4arduino.App.png
-color:
-  primary: "#f15a22"
-  primary-text: "#fff"
-price: false
-releases:
-
 redirect_from: /org.snap4arduino.App.desktop/
 ---
 

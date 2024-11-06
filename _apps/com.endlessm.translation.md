@@ -2,21 +2,9 @@
 app_id: com.endlessm.translation
 title: "Translate"
 summary: "Translate text between many languages instantly"
-developer: "Translate Developers"
-homepage: https://endlessm.com
-help_page: false
-bugtracker: false
 dist: flatpak
 screenshots:
   - https://d3lapyynmdp1i9.cloudfront.net/screenshots/com.endlessm.translation/pt/com.endlessm.translation-screenshot1.jpg
-icons:
-  "64": /images/icons/64x64/com.endlessm.translation.png
-color:
-  primary: "#f15a22"
-  primary-text: "#fff"
-price: false
-releases:
-
 redirect_from: /com.endlessm.translation.desktop/
 ---
 

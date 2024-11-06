@@ -2,21 +2,9 @@
 app_id: com.endlessm.howto.pt
 title: "Como Fazer"
 summary: "Como fazer praticamente qualquer coisa por conta própria"
-developer: "Como Fazer Developers"
-homepage: https://endlessm.com
-help_page: false
-bugtracker: false
 dist: flatpak
 screenshots:
   - https://d3lapyynmdp1i9.cloudfront.net/screenshots/com.endlessm.howto.pt/C/com.endlessm.howto.pt-screenshot1.jpg
-icons:
-  "64": /images/icons/64x64/com.endlessm.howto.pt.png
-color:
-  primary: "#f15a22"
-  primary-text: "#fff"
-price: false
-releases:
-
 redirect_from: /com.endlessm.howto.pt.desktop/
 ---
 

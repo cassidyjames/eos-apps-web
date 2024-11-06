@@ -2,21 +2,9 @@
 app_id: com.endlessm.biology.pt
 title: "Biologia"
 summary: "Aprenda tudo sobre o mundo vivo ao seu redor"
-developer: "Biologia Developers"
-homepage: https://endlessos.com
-help_page: false
-bugtracker: false
 dist: flatpak
 screenshots:
   - https://com-endless--cloud-soma-prod--shared-portal.s3.amazonaws.com/apps.246.screenshots.9bee96ae-90d5-450d-a346-2226fc8a9398_201810181856081313.png
-icons:
-  "64": /images/icons/64x64/com.endlessm.biology.pt.png
-color:
-  primary: "#f15a22"
-  primary-text: "#fff"
-price: false
-releases:
-
 redirect_from: /com.endlessm.biology.pt.desktop/
 ---
 

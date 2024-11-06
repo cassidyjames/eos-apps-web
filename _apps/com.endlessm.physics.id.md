@@ -2,21 +2,9 @@
 app_id: com.endlessm.physics.id
 title: "Fisika"
 summary: "Pelajari misteri dunia fisik"
-developer: "Fisika Developers"
-homepage: https://endlessos.com
-help_page: false
-bugtracker: false
 dist: flatpak
 screenshots:
   - https://com-endless--cloud-soma-prod--shared-portal.s3.amazonaws.com/apps.287.screenshots.369248cb-d222-48b0-a2af-8ec6852e1bb9_201810232053305151.png
-icons:
-  "64": /images/icons/64x64/com.endlessm.physics.id.png
-color:
-  primary: "#f15a22"
-  primary-text: "#fff"
-price: false
-releases:
-
 redirect_from: /com.endlessm.physics.id.desktop/
 ---
 

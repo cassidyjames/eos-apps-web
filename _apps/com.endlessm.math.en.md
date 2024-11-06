@@ -2,21 +2,9 @@
 app_id: com.endlessm.math.en
 title: "Math"
 summary: "High school math made simple and accessible"
-developer: "Math Developers"
-homepage: https://endlessos.com
-help_page: false
-bugtracker: false
 dist: flatpak
 screenshots:
   - https://com-endless--cloud-soma-prod--shared-portal.s3.amazonaws.com/apps.278.screenshots.5b3d5fa3-2233-4f25-9fca-ec5b1052aae0_20181023200997000.png
-icons:
-  "64": /images/icons/64x64/com.endlessm.math.en.png
-color:
-  primary: "#f15a22"
-  primary-text: "#fff"
-price: false
-releases:
-
 redirect_from: /com.endlessm.math.en.desktop/
 ---
 

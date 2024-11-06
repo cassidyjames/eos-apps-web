@@ -2,21 +2,9 @@
 app_id: com.endlessm.chinese_curriculum_english.zh_CN
 title: "小学英语"
 summary: "小学英语人教版同步精练"
-developer: "小学英语 Developers"
-homepage: https://endlessm.com
-help_page: false
-bugtracker: false
 dist: flatpak
 screenshots:
   - https://d3lapyynmdp1i9.cloudfront.net/screenshots/com.endlessm.chinese_curriculum_english.zh_CN/C/com.endlessm.chinese_curriculum_english.zh_cn-screenshot1.jpg
-icons:
-  "64": /images/icons/64x64/com.endlessm.chinese_curriculum_english.zh_CN.png
-color:
-  primary: "#f15a22"
-  primary-text: "#fff"
-price: false
-releases:
-
 redirect_from: /com.endlessm.chinese_curriculum_english.zh_CN.desktop/
 ---
 

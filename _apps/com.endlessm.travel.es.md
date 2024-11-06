@@ -2,21 +2,9 @@
 app_id: com.endlessm.travel.es
 title: "¡Explora!"
 summary: "Explora los lugares más populares del mundo"
-developer: "¡Explora! Developers"
-homepage: https://endlessos.com
-help_page: false
-bugtracker: false
 dist: flatpak
 screenshots:
   - https://com-endless--cloud-soma-prod--shared-portal.s3.amazonaws.com/apps.306.screenshots.88cf354a-525c-4e32-8db3-6b5c3f58537d_20181023215368022.png
-icons:
-  "64": /images/icons/64x64/com.endlessm.travel.es.png
-color:
-  primary: "#f15a22"
-  primary-text: "#fff"
-price: false
-releases:
-
 redirect_from: /com.endlessm.travel.es.desktop/
 ---
 

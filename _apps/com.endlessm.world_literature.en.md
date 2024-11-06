@@ -2,21 +2,9 @@
 app_id: com.endlessm.world_literature.en
 title: "World Literature"
 summary: "Read all of the world&#39;s great literature"
-developer: "World Literature Developers"
-homepage: https://endlessm.com
-help_page: false
-bugtracker: false
 dist: flatpak
 screenshots:
   - https://d3lapyynmdp1i9.cloudfront.net/screenshots/com.endlessm.world_literature.en/C/com.endlessm.world_literature.en-screenshot1.jpg
-icons:
-  "64": /images/icons/64x64/com.endlessm.world_literature.en.png
-color:
-  primary: "#f15a22"
-  primary-text: "#fff"
-price: false
-releases:
-
 redirect_from: /com.endlessm.world_literature.en.desktop/
 ---
 

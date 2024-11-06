@@ -2,22 +2,9 @@
 app_id: com.endlessm.marie_therese.fr
 title: "Les Adventures de Marie-Thérèse"
 summary: "A French-to-English language learning adventure game"
-developer: "Les Adventures de Marie-Thérèse Developers"
-homepage: https://github.com/HopeForHaiti/Les-Aventures-de-Marie-Terese
-help_page: false
-bugtracker: false
 dist: flatpak
 screenshots:
   - https://raw.githubusercontent.com/HopeForHaiti/Les-Aventures-de-Marie-Terese/master/Screens/1.png
-icons:
-  "64": /images/icons/64x64/com.endlessm.marie_therese.fr.png
-  "128": /images/icons/128x128/com.endlessm.marie_therese.fr.png
-color:
-  primary: "#f15a22"
-  primary-text: "#fff"
-price: false
-releases:
-
 redirect_from: /com.endlessm.marie_therese.fr.desktop/
 ---
 

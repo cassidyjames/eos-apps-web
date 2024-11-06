@@ -2,21 +2,9 @@
 app_id: com.endlessm.finance
 title: "My Budget"
 summary: "Learn how to create your own budget and save"
-developer: "My Budget Developers"
-homepage: http://www.endlessm.com
-help_page: false
-bugtracker: false
 dist: flatpak
 screenshots:
   - https://d3lapyynmdp1i9.cloudfront.net/screenshots/com.endlessm.finance/C/com.endlessm.finance-screenshot1.jpg
-icons:
-  "64": /images/icons/64x64/com.endlessm.finance.png
-color:
-  primary: "#f15a22"
-  primary-text: "#fff"
-price: false
-releases:
-
 redirect_from: /com.endlessm.finance.desktop/
 ---
 

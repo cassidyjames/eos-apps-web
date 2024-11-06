@@ -2,21 +2,9 @@
 app_id: com.endlessm.biology.es
 title: "Biología"
 summary: "Aprende sobre la vida en el mundo que te rodea"
-developer: "Biología Developers"
-homepage: https://endlessos.com
-help_page: false
-bugtracker: false
 dist: flatpak
 screenshots:
   - https://com-endless--cloud-soma-prod--shared-portal.s3.amazonaws.com/apps.244.screenshots.8b248977-8d60-42e7-8e47-86a0a0a9c2c1_20181018184993088.png
-icons:
-  "64": /images/icons/64x64/com.endlessm.biology.es.png
-color:
-  primary: "#f15a22"
-  primary-text: "#fff"
-price: false
-releases:
-
 redirect_from: /com.endlessm.biology.es.desktop/
 ---
 

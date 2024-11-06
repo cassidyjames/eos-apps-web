@@ -2,21 +2,9 @@
 app_id: com.endlessm.socialsciences.vi
 title: "Khoa học Xã hội"
 summary: "Môn học khám phá về cá nhân và xã hội"
-developer: "Khoa học Xã hội Developers"
-homepage: https://endlessos.com
-help_page: false
-bugtracker: false
 dist: flatpak
 screenshots:
   - https://com-endless--cloud-soma-prod--shared-portal.s3.amazonaws.com/apps.303.screenshots.dc0fe577-8a52-4455-bf58-afb2a2b8700c_201810232130325454.png
-icons:
-  "64": /images/icons/64x64/com.endlessm.socialsciences.vi.png
-color:
-  primary: "#f15a22"
-  primary-text: "#fff"
-price: false
-releases:
-
 redirect_from: /com.endlessm.socialsciences.vi.desktop/
 ---
 

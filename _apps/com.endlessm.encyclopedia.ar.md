@@ -2,21 +2,9 @@
 app_id: com.endlessm.encyclopedia.ar
 title: "Encyclopedia"
 summary: "The free encyclopedia that anyone can contribute to"
-developer: "Encyclopedia Developers"
-homepage: https://endlessm.com
-help_page: false
-bugtracker: false
 dist: flatpak
 screenshots:
   - https://d3lapyynmdp1i9.cloudfront.net/screenshots/com.endlessm.encyclopedia.ar/C/com.endlessm.encyclopedia-screenshot1.jpg
-icons:
-  "64": /images/icons/64x64/com.endlessm.encyclopedia.ar.png
-color:
-  primary: "#f15a22"
-  primary-text: "#fff"
-price: false
-releases:
-
 redirect_from: /com.endlessm.encyclopedia.ar.desktop/
 ---
 

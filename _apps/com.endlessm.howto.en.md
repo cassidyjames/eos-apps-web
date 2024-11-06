@@ -2,21 +2,9 @@
 app_id: com.endlessm.howto.en
 title: "How To"
 summary: "How-to do just about anything by yourself"
-developer: "How To Developers"
-homepage: https://endlessm.com
-help_page: false
-bugtracker: false
 dist: flatpak
 screenshots:
   - https://d3lapyynmdp1i9.cloudfront.net/screenshots/com.endlessm.howto.en/C/com.endlessm.howto.en-screenshot1.jpg
-icons:
-  "64": /images/icons/64x64/com.endlessm.howto.en.png
-color:
-  primary: "#f15a22"
-  primary-text: "#fff"
-price: false
-releases:
-
 redirect_from: /com.endlessm.howto.en.desktop/
 ---
 

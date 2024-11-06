@@ -2,21 +2,9 @@
 app_id: com.endlessm.animals.vi
 title: "Động vật"
 summary: "Tìm hiểu về tất cả sinh vật của Trái đất"
-developer: "Động vật Developers"
-homepage: https://endlessos.com
-help_page: false
-bugtracker: false
 dist: flatpak
 screenshots:
   - https://com-endless--cloud-soma-prod--shared-portal.s3.amazonaws.com/apps.236.screenshots.ffbfb472-814d-4bf1-8de5-2e643e50b824_201810181823101313.png
-icons:
-  "64": /images/icons/64x64/com.endlessm.animals.vi.png
-color:
-  primary: "#f15a22"
-  primary-text: "#fff"
-price: false
-releases:
-
 redirect_from: /com.endlessm.animals.vi.desktop/
 ---
 

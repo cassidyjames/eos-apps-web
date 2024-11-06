@@ -2,21 +2,9 @@
 app_id: com.endlessm.history.bn_BD
 title: "ইতিহাস"
 summary: "বিশ্বের ঘটনাবলী ও সভ্যতা সম্পর্কে জানুন"
-developer: "ইতিহাস Developers"
-homepage: https://endlessos.com
-help_page: false
-bugtracker: false
 dist: flatpak
 screenshots:
   - https://com-endless--cloud-soma-prod--shared-portal.s3.amazonaws.com/apps.270.screenshots.3afab1db-ffbc-4c72-a404-76e365c3fc89_201810231938621919.png
-icons:
-  "64": /images/icons/64x64/com.endlessm.history.bn_BD.png
-color:
-  primary: "#f15a22"
-  primary-text: "#fff"
-price: false
-releases:
-
 redirect_from: /com.endlessm.history.bn_BD.desktop/
 ---
 

@@ -2,21 +2,9 @@
 app_id: com.endlessm.farming.en
 title: "Farming"
 summary: "Learn about crops and raising animals"
-developer: "Farming Developers"
-homepage: https://endlessos.com
-help_page: false
-bugtracker: false
 dist: flatpak
 screenshots:
   - https://com-endless--cloud-soma-prod--shared-portal.s3.amazonaws.com/apps.259.screenshots.0b3f1d5b-d802-4b78-a739-04f341c78479_201810231849273434.png
-icons:
-  "64": /images/icons/64x64/com.endlessm.farming.en.png
-color:
-  primary: "#f15a22"
-  primary-text: "#fff"
-price: false
-releases:
-
 redirect_from: /com.endlessm.farming.en.desktop/
 ---
 

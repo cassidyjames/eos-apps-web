@@ -2,21 +2,9 @@
 app_id: com.endlessm.soccer.bn_BD
 title: "ফুটবল"
 summary: "আপনার প্রিয় দল এবং খেলোয়াড়দের সম্পর্কে জানুন"
-developer: "ফুটবল Developers"
-homepage: https://endlessos.com
-help_page: false
-bugtracker: false
 dist: flatpak
 screenshots:
   - https://com-endless--cloud-soma-prod--shared-portal.s3.amazonaws.com/apps.290.screenshots.521d220b-a752-407a-bbf8-1cf3be2b9786_201810232112835050.png
-icons:
-  "64": /images/icons/64x64/com.endlessm.soccer.bn_BD.png
-color:
-  primary: "#f15a22"
-  primary-text: "#fff"
-price: false
-releases:
-
 redirect_from: /com.endlessm.soccer.bn_BD.desktop/
 ---
 

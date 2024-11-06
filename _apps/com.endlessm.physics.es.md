@@ -2,21 +2,9 @@
 app_id: com.endlessm.physics.es
 title: "Física"
 summary: "Aprende sobre los misterios del mundo físico"
-developer: "Física Developers"
-homepage: https://endlessos.com
-help_page: false
-bugtracker: false
 dist: flatpak
 screenshots:
   - https://com-endless--cloud-soma-prod--shared-portal.s3.amazonaws.com/apps.286.screenshots.1898edca-f590-41c5-addb-85dde2307b00_201810232053872525.png
-icons:
-  "64": /images/icons/64x64/com.endlessm.physics.es.png
-color:
-  primary: "#f15a22"
-  primary-text: "#fff"
-price: false
-releases:
-
 redirect_from: /com.endlessm.physics.es.desktop/
 ---
 

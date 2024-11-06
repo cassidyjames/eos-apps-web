@@ -2,21 +2,9 @@
 app_id: com.endlessm.geography.th
 title: "ภูมิศาสตร์"
 summary: "รู้จักทุกประเทศในโลก"
-developer: "ภูมิศาสตร์ Developers"
-homepage: https://endlessos.com
-help_page: false
-bugtracker: false
 dist: flatpak
 screenshots:
   - https://com-endless--cloud-soma-prod--shared-portal.s3.amazonaws.com/apps.268.screenshots.c83b803e-34db-4f83-9f3e-d78fef540931_201810231911584242.png
-icons:
-  "64": /images/icons/64x64/com.endlessm.geography.th.png
-color:
-  primary: "#f15a22"
-  primary-text: "#fff"
-price: false
-releases:
-
 redirect_from: /com.endlessm.geography.th.desktop/
 ---
 

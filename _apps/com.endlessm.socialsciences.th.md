@@ -2,21 +2,9 @@
 app_id: com.endlessm.socialsciences.th
 title: "สังคมวิทยา"
 summary: "หัวข้อที่จะทำให้เรารู้จักบุคคลและสังคมได้ดียิ่งขึ้น"
-developer: "สังคมวิทยา Developers"
-homepage: https://endlessos.com
-help_page: false
-bugtracker: false
 dist: flatpak
 screenshots:
   - https://com-endless--cloud-soma-prod--shared-portal.s3.amazonaws.com/apps.302.screenshots.ae96c754-7b5e-4ba2-84a7-5f2deab20e8e_201810232130795454.png
-icons:
-  "64": /images/icons/64x64/com.endlessm.socialsciences.th.png
-color:
-  primary: "#f15a22"
-  primary-text: "#fff"
-price: false
-releases:
-
 redirect_from: /com.endlessm.socialsciences.th.desktop/
 ---
 

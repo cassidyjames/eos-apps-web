@@ -2,22 +2,9 @@
 app_id: com.endlessnetwork.blendertutorials
 title: "Blender Tutorials"
 summary: "Get a glimpse of the most fundamental tools and concepts in Blender."
-developer: "Blender Tutorials Developers"
-homepage: http://www.endlessm.com
-help_page: false
-bugtracker: false
 dist: flatpak
 screenshots:
   - http://grupopremiere.com/project/endlessm/blender/thumbs/thumb-1.jpg
-icons:
-  "64": /images/icons/64x64/com.endlessnetwork.blendertutorials.png
-  "128": /images/icons/128x128/com.endlessnetwork.blendertutorials.png
-color:
-  primary: "#f15a22"
-  primary-text: "#fff"
-price: false
-releases:
-
 redirect_from: /com.endlessnetwork.blendertutorials.desktop/
 ---
 

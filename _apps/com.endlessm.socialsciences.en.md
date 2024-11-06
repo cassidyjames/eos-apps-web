@@ -2,21 +2,9 @@
 app_id: com.endlessm.socialsciences.en
 title: "Social Sciences"
 summary: "Subjects that explore the individual and society"
-developer: "Social Sciences Developers"
-homepage: https://endlessos.com
-help_page: false
-bugtracker: false
 dist: flatpak
 screenshots:
   - https://com-endless--cloud-soma-prod--shared-portal.s3.amazonaws.com/apps.297.screenshots.d675ecdb-0a32-44ce-ace8-005afaf1d8a3_201810232130441818.png
-icons:
-  "64": /images/icons/64x64/com.endlessm.socialsciences.en.png
-color:
-  primary: "#f15a22"
-  primary-text: "#fff"
-price: false
-releases:
-
 redirect_from: /com.endlessm.socialsciences.en.desktop/
 ---
 

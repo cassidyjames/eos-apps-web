@@ -2,21 +2,9 @@
 app_id: com.endlessm.dinosaurs.pt
 title: "Dinossauros"
 summary: "Trazendo a pré-história de volta à vida para você descobrir de novo"
-developer: "Dinossauros Developers"
-homepage: https://endlessm.com
-help_page: false
-bugtracker: false
 dist: flatpak
 screenshots:
   - https://d3lapyynmdp1i9.cloudfront.net/screenshots/com.endlessm.dinosaurs.pt/C/com.endlessm.dinosaurs.pt-screenshot1.jpg
-icons:
-  "64": /images/icons/64x64/com.endlessm.dinosaurs.pt.png
-color:
-  primary: "#f15a22"
-  primary-text: "#fff"
-price: false
-releases:
-
 redirect_from: /com.endlessm.dinosaurs.pt.desktop/
 ---
 

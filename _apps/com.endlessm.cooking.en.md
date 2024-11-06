@@ -2,21 +2,9 @@
 app_id: com.endlessm.cooking.en
 title: "Cooking"
 summary: "Delicious recipes and tips for cooking"
-developer: "Cooking Developers"
-homepage: https://endlessm.com
-help_page: false
-bugtracker: false
 dist: flatpak
 screenshots:
   - https://d3lapyynmdp1i9.cloudfront.net/screenshots/com.endlessm.cooking.en/C/com.endlessm.cooking.en-screenshot1.jpg
-icons:
-  "64": /images/icons/64x64/com.endlessm.cooking.en.png
-color:
-  primary: "#f15a22"
-  primary-text: "#fff"
-price: false
-releases:
-
 redirect_from: /com.endlessm.cooking.en.desktop/
 ---
 

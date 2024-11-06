@@ -2,21 +2,9 @@
 app_id: com.endlessm.disabilities.en
 title: "Disabilities"
 summary: "Learn how to provide the best care"
-developer: "Disabilities Developers"
-homepage: https://endlessm.com
-help_page: false
-bugtracker: false
 dist: flatpak
 screenshots:
   - https://d3lapyynmdp1i9.cloudfront.net/screenshots/com.endlessm.disabilities.en/C/com.endlessm.disabilities.en-screenshot1.jpg
-icons:
-  "64": /images/icons/64x64/com.endlessm.disabilities.en.png
-color:
-  primary: "#f15a22"
-  primary-text: "#fff"
-price: false
-releases:
-
 redirect_from: /com.endlessm.disabilities.en.desktop/
 ---
 

@@ -2,21 +2,9 @@
 app_id: com.endlessm.dinosaurs.vi
 title: "Khủng long"
 summary: "Làm sống lại thời kỳ tiền sử để khám phá lại từ đầu"
-developer: "Khủng long Developers"
-homepage: https://endlessos.com
-help_page: false
-bugtracker: false
 dist: flatpak
 screenshots:
   - https://com-endless--cloud-soma-prod--shared-portal.s3.amazonaws.com/apps.257.screenshots.91cfeb20-44ea-47a2-887e-fdd63ae19e4e_201810182028062020.png
-icons:
-  "64": /images/icons/64x64/com.endlessm.dinosaurs.vi.png
-color:
-  primary: "#f15a22"
-  primary-text: "#fff"
-price: false
-releases:
-
 redirect_from: /com.endlessm.dinosaurs.vi.desktop/
 ---
 

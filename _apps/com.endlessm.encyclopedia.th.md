@@ -2,21 +2,9 @@
 app_id: com.endlessm.encyclopedia.th
 title: "สารานุกรม"
 summary: "สารานุกรมฟรีที่ทุกคนสามารถมีส่วนร่วมได้"
-developer: "สารานุกรม Developers"
-homepage: https://endlessm.com
-help_page: false
-bugtracker: false
 dist: flatpak
 screenshots:
   - https://d3lapyynmdp1i9.cloudfront.net/screenshots/com.endlessm.encyclopedia.th/C/com.endlessm.encyclopedia-screenshot1.jpg
-icons:
-  "64": /images/icons/64x64/com.endlessm.encyclopedia.th.png
-color:
-  primary: "#f15a22"
-  primary-text: "#fff"
-price: false
-releases:
-
 redirect_from: /com.endlessm.encyclopedia.th.desktop/
 ---
 

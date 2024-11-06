@@ -2,21 +2,9 @@
 app_id: com.endlessm.childrens_collection.es
 title: "Colección infantil"
 summary: "Cuentos cortos que les encantarán a toda la familia"
-developer: "Colección infantil Developers"
-homepage: https://endlessos.com
-help_page: false
-bugtracker: false
 dist: flatpak
 screenshots:
   - https://com-endless--cloud-soma-prod--shared-portal.s3.amazonaws.com/apps.347.screenshots.4a99b186-b4bb-46c0-ad1b-08ee7ff8805f_20200110230481088.png
-icons:
-  "64": /images/icons/64x64/com.endlessm.childrens_collection.es.png
-color:
-  primary: "#f15a22"
-  primary-text: "#fff"
-price: false
-releases:
-
 redirect_from: /com.endlessm.childrens_collection.es.desktop/
 ---
 

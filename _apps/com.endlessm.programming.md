@@ -2,21 +2,9 @@
 app_id: com.endlessm.programming
 title: "Coding Fun"
 summary: "Learn to create your own video games"
-developer: "Coding Fun Developers"
-homepage: false
-help_page: false
-bugtracker: false
 dist: flatpak
 screenshots:
   - https://d3lapyynmdp1i9.cloudfront.net/screenshots/com.endlessm.programming/C/com.endlessm.programming-screenshot1.jpg
-icons:
-  "64": /images/icons/64x64/com.endlessm.programming.png
-color:
-  primary: "#f15a22"
-  primary-text: "#fff"
-price: false
-releases:
-
 redirect_from: /com.endlessm.programming.desktop/
 ---
 

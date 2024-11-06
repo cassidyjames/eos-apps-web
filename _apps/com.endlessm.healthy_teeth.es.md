@@ -2,21 +2,9 @@
 app_id: com.endlessm.healthy_teeth.es
 title: "Dientes sanos"
 summary: "Aprende a cuidar tus dientes"
-developer: "Dientes sanos Developers"
-homepage: https://endlessm.com
-help_page: false
-bugtracker: false
 dist: flatpak
 screenshots:
   - https://d3lapyynmdp1i9.cloudfront.net/screenshots/com.endlessm.healthy_teeth.es/C/com.endlessm.healthy_teeth.es-screenshot1.jpg
-icons:
-  "64": /images/icons/64x64/com.endlessm.healthy_teeth.es.png
-color:
-  primary: "#f15a22"
-  primary-text: "#fff"
-price: false
-releases:
-
 redirect_from: /com.endlessm.healthy_teeth.es.desktop/
 ---
 
