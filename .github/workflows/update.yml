@@ -7,8 +7,10 @@ on:
     branches:
       - main
     paths:
+      - '_config.yaml'
       - 'appstream.xml'
       - 'generate-eos-apps.rb'
+      - '.github/workflows/'
       - 'images/icons/'
 
 jobs:
