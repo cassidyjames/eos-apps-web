@@ -2,10 +2,19 @@ $ui-font: "Lato", "Open Sans", sans-serif;
 
 h1 {
   font-weight: normal;
+
+  + p {
+    font-size: 1.25em;
+    font-weight: bold;
+  }
 }
 
 h2 {
   font-weight: 300;
+  margin-top: 2em;
+}
+
+h3 {
   margin-top: 2em;
 }
 

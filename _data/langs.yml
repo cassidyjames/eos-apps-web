@@ -1,0 +1,41 @@
+- code: en
+  description: English
+
+- code: ar
+  description: Arabic
+
+- code: bn_BD
+  description: Bangla (Bangladesh)
+
+- code: zh_CN
+  description: Chinese
+
+- code: fr
+  description: French
+
+- code: id
+  description: Indonesian
+
+- code: pt
+  description: Portuguese
+
+- code: pt_BR
+  description: Portuguese (Brazil)
+
+- code: ru
+  description: Russian
+
+- code: es
+  description: Spanish
+
+- code: es_GT
+  description: Spanish (Guatemala)
+
+- code: sw
+  description: Swahili
+
+- code: th
+  description: Thai
+
+- code: vi
+  description: Vietnamese

@@ -30,6 +30,7 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 
   font-family: $ui-font;
   background-color: var(--bg);
@@ -45,6 +46,11 @@ body {
 .constrain {
   max-width: 800px;
   margin: 0 auto;
+
+  &.wide {
+    max-width: 1200px;
+    width: 95vw;
+  }
 }
 
 .main {
