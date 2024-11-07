@@ -1,0 +1,10 @@
+<a class="app button {{ app.dist }}" href="{{ app.app_id | relative_url }}" title="{{ app.summary }}" id="{{ app.app_id }}" tabindex="0">
+  <img class="icon" width="64" height="64" loading="lazy"
+    srcset="{{ site.baseurl }}/images/icons/64x64/{{ app.app_id }}.png"
+    src="{{ site.baseurl }}/images/dotted-box-symbolic.svg"
+    alt="{{ app.title }} icon"
+  />
+
+  <span class="title">{{ app.title }}</span>
+  <span class="summary">{{ app.summary }}</span>
+</a>

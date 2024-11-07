@@ -10,24 +10,35 @@ color:
   <h1>{{ site.title }}</h1>
   <h2>{{ site.summary }}</h2>
   <p>Use your browser’s “Find” feature (i.e. <kbd>Ctrl</kbd><kbd>F</kbd> or <kbd>Cmd</kbd><kbd>F</kbd>) to search.</p>
+  <h3>Jump to Language</h3>
+  <nav class="lang">
+    {% for lang in site.data.langs %}
+      <a class="button" href="#{{ lang.code }}">{{ lang.description }}</a>
+    {% endfor %}
+  </nav>
 </div>
 
-<div class="home apps">
-  {% for app in flatpak_apps %}
-    {% unless app.app_id == "com.google.Chrome" %}
-      <a class="app button {{ app.dist }}" href="{{ app.app_id | relative_url }}" title="{{ app.summary }}" id="{{ app.app_id }}" tabindex="0">
-        <img class="icon" width="64" height="64" loading="lazy"
-          srcset="{{ site.baseurl }}/images/icons/64x64/{{ app.app_id }}.png"
-          src="{{ site.baseurl }}/images/dotted-box-symbolic.svg"
-          alt="{{ app.title }} icon"
-        />
+{% for lang in site.data.langs %}
+  <div class="home constrain wide">
+    <h2 id="{{ lang.code }}">{{ lang.description }}</h2>
+  </div>
+  <div class="home apps constrain wide">
+    {% for app in flatpak_apps %}
+      {% assign id = app.app_id | split: "." %}
+      {% if id[0] == "com" and id[1] == "endlessm" and id[3] == lang.code %}
+        {% include app_button.html %}
+      {% endif %}
 
-        <span class="title">{{ app.title }}</span>
-        <span class="summary">{{ app.summary }}</span>
-      </a>
-    {% endunless %}
-  {% endfor %}
-</div>
+      {% if lang.code == "en" %}
+        {% unless app.app_id == "com.google.Chrome" %}
+          {% unless id[0] == "com" and id[1] == "endlessm" and id[3] %}
+            {% include app_button.html %}
+          {% endunless %}
+        {% endunless %}
+      {% endif %}
+    {% endfor %}
+  </div>
+{% endfor %}
 
 <footer>
   <div class="constrain">

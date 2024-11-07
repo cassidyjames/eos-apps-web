@@ -6,13 +6,19 @@
     font-weight: 900;
   }
 
+  nav.lang {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.25em;
+    // justify-content: center;
+    margin-top: 1em;
+  }
+
   &.apps {
     display: grid;
     grid-template-columns: repeat(auto-fill, 12em);
     justify-content: space-around;
-    margin: 0 auto;
-    max-width: 1200px;
-    width: 95vw;
 
     .app {
       border-radius: 2em;
