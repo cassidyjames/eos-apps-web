@@ -20,13 +20,15 @@ layout: default
 
 <div class="main">
 
-  <section class="screenshots constrain">
-    <img
-      alt="Screenshot of {{ page.title }}"
-      srcset="{{ page.screenshots[0] | absolute_url }}"
-      src="{{ site.baseurl }}/images/dotted-box-symbolic.svg"
-    />
-  </section>
+  {% if page.screenshots %}
+    <section class="screenshots constrain">
+      <img
+        alt="Screenshot of {{ page.title }}"
+        srcset="{{ page.screenshots[0] | absolute_url }}"
+        src="{{ site.baseurl }}/images/dotted-box-symbolic.svg"
+      />
+    </section>
+  {% endif %}
 
   <section class="description constrain">
     <h2>{{ page.summary }}</h2>
